@@ -273,7 +273,7 @@ function DataStore(props) {
         id: 29,
         topic: "Samsung Galaxy S23 FE likely to launch in India soon, teaser spotted on Flipkart",
         category: "technology",
-        info: "After months of speculation, it seems that Samsung has finally decided to launch a new model in its Galaxy S FE series. The company is widely rumoured to announce the Samsung Galaxy S23 FE in India soon, as a support page for the same has been spotted on the official website of Samsung. Now, the teaser for the alleged 5G phone has made an appearance on Flipkart. Here are the details.",
+        info: "After months of speculation, it seems that Samsung has finally decided to launch a new model in its Galaxy S FE series. The company is widely rumoured to announce the Samsung Galaxy S23 FE in India soon, as a support page for the same has been spotted on the official website of Samsung.",
         detail: "After months of speculation, it seems that Samsung has finally decided to launch a new model in its Galaxy S FE series. The company is widely rumoured to announce the Samsung Galaxy S23 FE in India soon, as a support page for the same has been spotted on the official website of Samsung. Now, the teaser for the alleged 5G phone has made an appearance on Flipkart, which was first spotted by tipster Abhishek Yadav.",
         image: "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/samsjpg-284057-16x9_0.jpg?VersionId=716r91dSHd3zdkaWfrNjgvSgpDmt1EvB&size=690:388",
         date: "11/09/2023"
@@ -282,7 +282,7 @@ function DataStore(props) {
         id: 30,
         topic: "Tech Mahindra shows salaries for freshers and supercoders during campus placement, student reacts in horror",
         category: "technology",
-        info: "Tech Mahindra is a company that often visits Indian colleges and tech institutes to hire software engineers. But the question you may have is: how much does Tech Mahindra pay fresh engineering graduates? The answer is — between Rs 3.2 lakh to Rs 5.5 lakh. And there are conditions attached.",
+        info: "Tech Mahindra is a company that often visits Indian colleges and tech institutes to hire software engineers. But the question you may have is: how much does Tech Mahindra pay fresh engineering graduates? ",
         detail: "If you are a computer engineering student at one of India's umpteen colleges, you must have wondered about the salary you will get in your first job. And more so if that job comes about in a campus placement. Now, different companies have different job and salary policies, and surely some people do get lucky to get into a role and company where they are offered tens of lakhs rupees, but for most the beginnings are more modest. If we are to believe what Tech Mahindra offers during its campus placement, it seems that the starting salary for fresh software engineering graduates at the company lies between Rs 3.2 lakh to Rs 5.5 lakh.",
         image: "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/tech-mahindra-080126-16x9.jpg?VersionId=xxPdaJBmVv9tybUT3CMAq7lf5blH.Q4h&size=690:388",
         date: "12/09/2023"

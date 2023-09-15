@@ -204,7 +204,7 @@
 .contentdiv {
     /* border: 2px solid orange; */
     width: 60%;
-    height: 200px;
+    height: auto;
     margin: 0% 0% 0% 2%;
 
 }
@@ -288,4 +288,34 @@
     width: 80%;
     border: 2px solid black;
     margin: auto;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: beige;
+    height: 35vh;
+}
+
+.footerflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.foot {
+    width: 30%;
+    /* border: 2px solid white; */
+    margin: 0.5%;
+    text-align: center;
+    color: beige;
+}
+
+.iconfooter {
+    margin-right: 2%;
+}
+
+.hoo {
+    margin: 10px;
 }
