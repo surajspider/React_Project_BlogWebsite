@@ -73,6 +73,76 @@
     text-decoration: none;
 }
 
+.outerdiv_home {
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+.h2topname_home {
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.hrredline_home {
+    background-color: red;
+    height: 2px;
+    width: 5%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.homelatestParent {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home_itemdiv {
+    /* border: 2px solid red; */
+    width: 23%;
+    height: 50vh;
+    margin-bottom: 2%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.home_itemdiv:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.imgdiv_home {
+    width: 100%;
+    height: 25vh;
+}
+
+.contentdiv_home {
+    /* border: 2px solid green; */
+    text-wrap: wrap;
+    overflow: hidden;
+
+}
+
+.divparent_home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+.bor {
+    border: 5px double greenyellow;
+    height: 40vh;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+/* Bollywood Page */
 
 .divparent {
     display: flex;
@@ -102,13 +172,20 @@
     text-align: left;
     margin-left: 10px;
     margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .itemdiv {
     /* border: 2px solid black; */
     margin: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
     display: flex;
     flex-wrap: nowrap;
+}
+
+.itemdiv:hover {
+    box-shadow: 0 0 19px rgba(33, 33, 33, .2);
 }
 
 .imagediv {
@@ -148,6 +225,10 @@
     flex-wrap: wrap;
 }
 
+.spldiv:hover {
+    box-shadow: 0 0 19px rgba(33, 33, 33, .2);
+}
+
 .imagedivspl {
     width: 100%;
     height: 200px;
@@ -172,7 +253,11 @@
     display: flex;
     flex-wrap: wrap;
     margin: 10px 0px 10px 0px;
-    /* border: 2px solid black; */
+    /* border: 1px solid black; */
+}
+
+.itemdiv2:hover {
+    box-shadow: 0 0 19px rgba(33, 33, 33, .2);
 }
 
 .imgdiv2 {
@@ -191,6 +276,7 @@
     text-align: center;
     border: 2px solid black;
     height: 110vh;
+    background-color: whitesmoke;
 }
 
 .imagediv3 {
