@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { StoreData } from '../DataStore/DataStore';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Home() {
     const [datas] = useContext(StoreData);
@@ -33,7 +33,7 @@ function Home() {
                                     </div>
                                     <div className='contentdiv_home'>
                                         <h3 style={{ margin: "10px 0px 0px 0px", textAlign: "justify" }}>{item.topic}</h3>
-                                        <p style={{ margin: "5px 0px 0px 0px", textAlign: "justify", fontSize: "1.2em" }}>{item.info}</p>
+                                        <p style={{ margin: "5px 0px 0px 0px", textAlign: "justify", fontSize: "1.2em" }}>{item.info.split(" ", 13).join(" ")}....</p>
                                     </div>
                                 </Link>
                             </div>
@@ -50,7 +50,7 @@ function Home() {
                             {datas.filter((item) => item.category === "bollywood" && item.id >= 2 && item.id <= 8).map((item, index) => {
                                 return (
                                     <div key={index}>
-                                        <Link style={{ textDecoration: "none", color: "black" }} to={'/news/' + item.id} state={item.id}>
+                                        <NavLink style={{ textDecoration: "none", color: "black" }} to={`/news/${item.id}`}>
                                             <div className="itemdiv">
 
                                                 <div className='imagediv'>
@@ -58,11 +58,11 @@ function Home() {
                                                 </div>
                                                 <div className='contentdiv'>
                                                     <h4 style={{ margin: 0, textAlign: "justify" }}>{item.topic}</h4>
-                                                    <p style={{ textAlign: "justify" }}>{item.info}</p>
+                                                    <p style={{ textAlign: "justify" }}>{item.info}....</p>
                                                 </div>
 
                                             </div>
-                                        </Link>
+                                        </NavLink>
 
                                         <hr className='linegrey'></hr>
                                     </div>
@@ -84,10 +84,10 @@ function Home() {
                                                     <h4>{item.topic}</h4>
                                                 </div>
                                                 <div className='toppostsnum'>
-                                                    <h1 style={{ color: "grey" }}>1</h1>
+                                                    <h1 style={{ color: "grey", fontSize: "3em" }}>1</h1>
                                                 </div>
                                             </div>
-                                            <hr></hr>
+                                            <hr className='linegrey'></hr>
                                         </Link>
                                     </div>
                                 )
@@ -104,10 +104,10 @@ function Home() {
                                                     <h5 style={{ margin: "0px 0px 0px 5px", textAlign: "justify" }}>{item.topic}</h5>
                                                 </div>
                                                 <div className='toppostsnum'>
-                                                    <h1 style={{ color: "grey" }}>{count = count + 1}</h1>
+                                                    <h1 style={{ color: "grey", fontSize: "3em" }}>{count = count + 1}</h1>
                                                 </div>
                                             </div>
-                                            <hr></hr>
+                                            <hr className='linegrey'></hr>
                                         </Link>
                                     </div>
                                 )
@@ -127,7 +127,7 @@ function Home() {
                                 <Link style={{ textDecoration: "none", color: "black" }} to={'/news/' + item.id} state={item.id}>
                                     <div className='contentdiv_home'>
                                         <h3 style={{ margin: "10px 0px 10px 0px", fontSize: "1.4em" }}>{item.topic}</h3>
-                                        <p style={{ margin: "5px 0px 0px 0px", textAlign: "justify", fontSize: "1.2em" }}>{item.info}</p>
+                                        <p style={{ margin: "5px 0px 0px 0px", textAlign: "justify", fontSize: "1.2em" }}>{item.info.split(" ", 25).join(" ")}....</p>
                                     </div>
                                 </Link>
                             </div>

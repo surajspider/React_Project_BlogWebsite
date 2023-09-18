@@ -280,14 +280,50 @@
 }
 
 .imagediv3 {
-    width: 60%;
+    width: 100%;
     margin: auto;
 }
 
+
 .itemdiv3 {
-    width: 80%;
-    border: 2px solid black;
+    width: 40%;
+    /* border: 2px solid black; */
     margin: auto;
+}
+
+.author {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemdiv3_logo {
+    width: 13%;
+    height: 10vh;
+    /* border: 2px solid violet; */
+}
+
+.createrinfo {
+    width: 60%;
+    /* border: 2px solid black; */
+    margin: 0;
+}
+
+.div3_logos {
+    width: 25%;
+    /* border: 2px solid green; */
+}
+
+.img_logo {
+    width: 20%;
+    /* border: 2px solid red; */
+    margin-top: 12%;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+.ptag {
+    text-align: justify;
 }
 
 .footer {
@@ -295,6 +331,7 @@
     background-color: black;
     color: beige;
     height: 35vh;
+    margin: 0;
 }
 
 .footerflex {

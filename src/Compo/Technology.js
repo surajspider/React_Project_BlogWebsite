@@ -39,7 +39,7 @@ function Technology() {
                                         </div>
                                         <div className='contentdiv'>
                                             <h4 style={{ margin: 0, textAlign: "justify" }}>{item.topic}</h4>
-                                            <p style={{ textAlign: "justify" }}>{item.info}</p>
+                                            <p style={{ textAlign: "justify" }}>{item.info}....</p>
                                         </div>
                                     </div>
                                     <hr className='linegrey'></hr>
@@ -63,7 +63,7 @@ function Technology() {
                                             <h4>{item.topic}</h4>
                                         </div>
                                         <div className='toppostsnum'>
-                                            <h1 style={{ color: "grey" }}>1</h1>
+                                            <h1 style={{ color: "grey", fontSize: "3em" }}>1</h1>
                                         </div>
                                     </div>
                                 </Link>
@@ -83,7 +83,7 @@ function Technology() {
                                             <h5 style={{ margin: "0px 0px 0px 5px", textAlign: "justify" }}>{item.topic}</h5>
                                         </div>
                                         <div className='toppostsnum'>
-                                            <h1 style={{ color: "grey" }}>{count = count + 1}</h1>
+                                            <h1 style={{ color: "grey", fontSize: "3em" }}>{count = count + 1}</h1>
                                         </div>
                                     </div>
                                 </Link>

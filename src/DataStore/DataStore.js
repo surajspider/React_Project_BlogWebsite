@@ -286,7 +286,151 @@ function DataStore(props) {
         detail: "If you are a computer engineering student at one of India's umpteen colleges, you must have wondered about the salary you will get in your first job. And more so if that job comes about in a campus placement. Now, different companies have different job and salary policies, and surely some people do get lucky to get into a role and company where they are offered tens of lakhs rupees, but for most the beginnings are more modest. If we are to believe what Tech Mahindra offers during its campus placement, it seems that the starting salary for fresh software engineering graduates at the company lies between Rs 3.2 lakh to Rs 5.5 lakh.",
         image: "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/tech-mahindra-080126-16x9.jpg?VersionId=xxPdaJBmVv9tybUT3CMAq7lf5blH.Q4h&size=690:388",
         date: "12/09/2023"
-    }
+    },
+    {
+        id: 31,
+        topic: "Prince Harry Through the Years: Photos as Young Royal to Today",
+        category: "hollywood",
+        info: "In honor of Prince Harry’s 39th birthday, look back at the royal’s transformation in the public eye from a youngster to today!",
+        detail: "Prince Harry, born September 15, 1984, is the second son of Princess Charles and Princess Diana. Prince Harry’s entire life has been in the spotlight. Ever since he was an infant, Harry made an impression on many royal devotees. He was the apple of his mother’s eye, but his life was shattered when she died in a car accident in 1997 when Harry was just 12 years old.",
+        detail2: "Over the years, Harry has completely matured into a grown man. He’s an inspiration to many young people who have struggled with their mental health, and he’s become a devoted father and husband, alongside his stunning wife Meghan Markle. The two have two children together, and shocked people around the world in 2020 when they decided to step away from their royal duties to live a more private life in America. Now, the family resides in California.",
+        date: "08/09/2023",
+        image: "http://hollywoodlife.com/wp-content/uploads/2020/09/prince-harry-now-and-then-ap-images-intro-slide.jpg?w=680"
+    },
+    {
+        id: 32,
+        topic: "The Wonderful Story of Henry Sugar Trailer:",
+        category: "hollywood",
+        info: "Wes Anderson is back once again with another book adaptation on toe with Benedict Cumberbatch as his leading star. Here's everything you need to know about The Wonderful Story of Henry Sugar.",
+        detail: "Benedict Cumberbatch is back with another film, but evidently, this might be one of the most interesting projects yet. And that'll be thanks to the man and legend himself Wes Anderson. The director has been one of the most successful people in Hollywood. Fans and the general public alike have come to know the iconic style of direction associated with Anderson, and his new project doesn't seem to disappoint as far as the trailer is concerned. Here's everything you need to know about the upcoming film.",
+        detail2: "The trailer delves into the character of Henry Sugar played by Benedict Cumberbatch, the rich 41-year-old bachelor, who finds out through a little blue exercise book, about a man who has learned to see without his eyes, portrayed by the veteran actor, Ben Kingsley. Soon enough Sugar decides he needs to learn this art, as he intends to use it for his gambling. Throughout the trailer, all the characters break the 4th wall, narrating the events, as though they're reading a book. ",
+        date: "10/09/2023",
+        image: "https://www.pinkvilla.com/images/2023-09/616404551_image-1280x720-2-1.jpg"
+    },
+    {
+        id: 33,
+        topic: "Millie Bobby Brown Looks So in Love While Holding Hands With Fiancé Jake Bongiovi in NYC: Photo",
+        category: "hollywood",
+        info: "The ‘Stranger Things’ actress couldn't help but gaze lovingly at her husband-to-be as they stepped out together in NYC!",
+        detail: "Millie Bobby Brown and her fiancé, Jake Bongiovi, adorably looked into each other’s eyes and held hands while stepping out together in New York! In photos you can see below, the Godzilla Vs. Kong beauty wore a black and white tie-dyed midi dress with a mock turtleneck as she headed to an appearance on the Today Show. She finished the look with a chic ponytail and a pair of sunglasses and wore white sandals in the September warmth. Jake, who was along to support his famous girlfriend, rocked distressed jeans with a brown tee, green sneakers, and navy ball cap. The future spouses couldn’t help smiling as they looked lovingly at each other, holding hands affectionately.",
+        detail2: "The Stranger Things star, 19, and Jon Bon Jovi‘s lookalike son, 21, have been linked since 2021 and got engaged in April of 2023. Surprisingly, they met via Instagram, she revealed in an August interview. “I was interested in him and wanted to know more,” she told The Sunday Times for an interview published on Aug. 27.",
+        date: "14/07/2023",
+        image: "https://hollywoodlife.com/wp-content/uploads/2023/09/Millie-bobby-brown-jake-bongiovi-hold-hands-EMBED-1.jpg"
+    },
+    {
+        id: 34,
+        topic: "‘Aquaman 2’: The New Trailer, Release Date and Everything Else You Need to Know",
+        category: "hollywood",
+        info: "Arthur Curry is the king of Atlantis and faces a dangerous old threat in the 'Aquaman and the Lost Kingdom' trailer.",
+        detail: "Aquaman was just too good to not get a sequel. Jason Momoa, 44, starred as Arthur Curry/Aquaman in 2018 DC Extended Universe movie, which has snagged a sequel coming out in December 2023. The trailer for Aquaman 2, officially titled Aquaman and the Lost Kingdom, was released September 14, and it teases the DC hero taking on two important jobs: king of Atlantis and a father.",
+        detail2: "Aquaman 2 will continue the story of Momoa’s Aquaman, the leader of the underwater kingdom of Atlantis who first appeared in Batman v Superman: Dawn of Justice (2016) and Justice League (2017). Aquaman was released on December 21, 2018, and received praise from fans and critics alike and grossed over $1 billion worldwide.",
+        date: "12/09/2023",
+        image: "https://staticg.sportskeeda.com/editor/2023/04/f0b98-16823069481957-1920.jpg"
+    },
+    {
+        id: 35,
+        topic: "‘I'll sell one of my children!’ Ryan Reynolds makes dark joke about selling his kids to raise money for Wrexham AFC",
+        category: "hollywood",
+        info: "Ryan Reynolds recently joked about selling one of his four kids to raise 46 million pounds for his football club, Wrexham AFC",
+        detail: "Is Ryan Reynolds getting a little mixed up with his four kids alongside Blake Lively? In some funny comments, the 46-year-old Deadpool star joked about selling one of his children and pretending not to remember their names! During the Season 2 premiere of the show Welcome to Wrexham, Ryan suggested he'd be willing to part with one of his kids to raise 20 million pounds to expand a football stadium for their team. Here’s what the Free Guy star said. ",
+        detail2: "As the situation made it clear that additional funds were necessary, McElhenney pointed out that the club's financial shortfall was hindering their plans, saying, 'I don't have £20 million laying around.' McElhenney is known for his role as the creator of It's Always Sunny in Philadelphia.",
+        date: "12/09/2023",
+        image: "https://www.pinkvilla.com/images/2023-09/1269950317_ryan-reynolds-img.jpg"
+    },
+    {
+        id: 36,
+        topic: "‘Killers of the Flower Moon’ Movie: The Official Trailer, the Cast, Release Date & More",
+        category: "hollywood",
+        info: "The latest trailer for Martin Scorsese's next epic, 'Killers of the Flower Moon' has been released. Here's everything you need to know about the film starring Leonardo DiCaprio.",
+        detail: "There’s a slate of exciting movies that are coming out later in 2023, including Killers of the Flower Moon. The movie features an all-star cast, including Leonardo DiCaprio, Robert De Niro, and more. Martin Scorsese is at the helm of Killers of the Flower Moon. The first official trailer for the film was released on July 5. The second trailer for the movie was dropped on Sep. 13.",
+        detail2: "The film is an American Western crime drama set in 1920s Oklahoma, and it’s expected to be a huge hit with critics once it arrives in theaters in October 2023. Look for Killers of the Flower Moon to be a major contender at the 2024 Academy Awards. Here’s everything you need to know about the film, including the release date, the cast, and more.",
+        date: "06/05/2023",
+        image: "https://hollywoodlife.com/wp-content/uploads/2022/07/killers-of-the-flower-moon-ec-embed.jpg"
+    },
+    {
+        id: 37,
+        topic: "Lessons in Chemistry Trailer: Brie Larson as Elizabeth Zott brings a powerful tale of scientific ambition and gender barriers",
+        category: "hollywood",
+        info: "Apple TV+ released the trailer for Lessons in Chemistry, and fans can't contain their excitement while anticipating its release of the Brie Larson starrer. Discover what it has in store for you!",
+        detail: "The upcoming limited series, Lessons in Chemistry, adapted from Bonnie Garmus' best-selling book, is scheduled to premiere on Apple TV+ this autumn and recently the anticipation grew higher as Apple TV+ released the trailer. Featuring Brie Larson, an Oscar winner, as the lead, and a talented ensemble cast, this series set in the 1950s is expected to offer a compelling mix of drama, humor, and touching moments.",
+        detail2: "It can be made out from the trailer that Lessons in Chemistry is not just about culinary expertise; it's a love story, both romantic and platonic. It underscores the powerful message that staying true to oneself and resisting societal pressures can be the key to achieving success. While the series offers glimpses of Zott's eventual popularity as the beloved TV cooking show host, it's all about her journey in the years leading up to that point that she truly deserves.",
+        date: "06/05/2023",
+        image: "https://www.pinkvilla.com/images/2023-09/696939721_whatsapp-image-2023-09-15-at-6-23-28-pm.jpg"
+    },
+    {
+        id: 38,
+        topic: "Caitlyn Jenner Claims Kim Kardashian Was ‘Calculated From The Beginning’",
+        category: "hollywood",
+        info: "Caitlyn Jenner will make an appearance in the new 'House of Kardashian' docuseries and she has a lot to say about her famous family.",
+        detail: "Caitlyn Jenner is not holding back. A new trailer for a three-part docuseries called House of Kardashian was released on September 15, exploring the ultra-successful Kardashian-Jenner family, and Caitlyn is opening up about her experiences with her ex-wife and children. The series will release on Sky Documentaries on October 8.",
+        detail2: "In the trailer, we can see that Caitlyn will be one of the main testimonies in the documentary, as someone so close to the inner circle — detailing the family dynamic, scandals, and inside scoop. When asked by an interviewer what her experience was like working with her ex-wife Kris Jenner, she gave a slight chuckle, alluding that we will find out more in the series and it probably won’t be a positive representation of the famous momager. An unknown person did say “Kris wanted to be more than just a housewife.”",
+        date: "08/09/2023",
+        image: "https://hollywoodlife.com/wp-content/uploads/2023/09/caitlyn-jenner-and-kim-kardashian-ss-ftr_480.jpg?resize=768%2C432"
+    },
+    {
+        id: 39,
+        topic: "Emma Watson's graduation gift from Perks of Being a Wallflower director will warm your heart",
+        category: "hollywood",
+        info: "Emma Watson, beloved for her role as Hermione Granger in the Harry Potter series, recently shared a heartwarming graduation gift she received from Stephen Chbosky",
+        detail: "Emma Watson, beloved for her role as Hermione Granger in the Harry Potter series, recently shared a heartwarming graduation gift she received from Stephen Chbosky, the writer and director of 'The Perks of Being a Wallflower.' In a segment for Vogue's 'What's In My Bag,' Watson revealed this cherished gift, a limited edition copy of T. S. Eliot's poem, 'The Love Song of J. Alfred Prufrock.' The inscription inside this book, penned by Chbosky, is a testament to their enduring friendship and the impact of the film on Watson's life.",
+        detail2: "Emma Watson recently gave Vogue a glimpse into her travel bag, revealing some personal treasures she carries with her, including a special gift from Stephen Chbosky. After her graduation from Brown University in 2014, Chbosky presented her with a limited edition copy of T. S. Eliot's poetic masterpiece, 'The Love Song of J. Alfred Prufrock.'",
+        date: "10/12/2022",
+        image: "https://www.pinkvilla.com/images/2023-09/127446422_s-1.jpg"
+    },
+    {
+        id: 40,
+        topic: "NSYNC Reunites on MTV VMAs Stage to Present Best Pop Song to Taylor Swift",
+        category: "hollywood",
+        info: "",
+        detail: "",
+        detail2: "",
+        date: ""
+    },
+    {
+        id: 41,
+        topic: "",
+        category: "hollywood",
+        info: "",
+        detail: "",
+        detail2: "",
+        date: ""
+    },
+    {
+        id: 42,
+        topic: "",
+        category: "hollywood",
+        info: "",
+        detail: "",
+        detail2: "",
+        date: ""
+    },
+    {
+        id: 43,
+        topic: "",
+        category: "hollywood",
+        info: "",
+        detail: "",
+        detail2: "",
+        date: ""
+    },
+    {
+        id: 44,
+        topic: "",
+        category: "hollywood",
+        info: "",
+        detail: "",
+        detail2: "",
+        date: ""
+    },
+    {
+        id: 45,
+        topic: "",
+        category: "hollywood",
+        info: "",
+        detail: "",
+        detail2: "",
+        date: ""
+    },
     ])
     return (
         <StoreData.Provider value={[data, dataf]}>
