@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import './Compo/Style.css';
 import Main from './Compo/Main';
 // import DataStore from './DataStore/DataStore';

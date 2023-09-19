@@ -32,8 +32,8 @@ function Home() {
                                         <img className="imgfil" src={item.image} alt="not found" />
                                     </div>
                                     <div className='contentdiv_home'>
-                                        <h3 style={{ margin: "10px 0px 0px 0px", textAlign: "justify" }}>{item.topic}</h3>
-                                        <p style={{ margin: "5px 0px 0px 0px", textAlign: "justify", fontSize: "1.2em" }}>{item.info.split(" ", 13).join(" ")}....</p>
+                                        <h3 style={{ margin: "10px 0px 0px 0px", textAlign: "justify", fontSize: "1em" }}>{item.topic}</h3>
+                                        <p style={{ margin: "5px 0px 0px 0px", textAlign: "justify", fontSize: "1em" }}>{item.info.split(" ", 25).join(" ")}....</p>
                                     </div>
                                 </Link>
                             </div>
