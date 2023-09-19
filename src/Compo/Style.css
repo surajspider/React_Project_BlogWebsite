@@ -281,6 +281,7 @@
 
 .imagediv3 {
     width: 100%;
+    height: 45vh;
     margin: auto;
 }
 
@@ -306,7 +307,7 @@
 .createrinfo {
     width: 60%;
     /* border: 2px solid black; */
-    margin: 0;
+    margin: 0px 0px 0px 5px;
 }
 
 .div3_logos {
@@ -324,6 +325,12 @@
 
 .ptag {
     text-align: justify;
+}
+
+.suggestions {
+    /* border: 2px solid black; */
+    background-color: blanchedalmond;
+    padding-top: 0.5%;
 }
 
 .footer {

@@ -14,7 +14,7 @@ function Bollywood() {
     //     )
     // }
     return (
-        <div>
+        <div style={{ border: "2px solid black" }}>
             <br />
             <div className='divparent'>
                 <div className='leftcat'>

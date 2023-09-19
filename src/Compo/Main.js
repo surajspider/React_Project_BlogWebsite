@@ -12,7 +12,7 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 
 function Main() {
     return (
-        <div>
+        <>
             <h1 style={{ padding: 0, textAlign: "center" }}><span id='rotate'>The</span> <span className='siren'>Siren</span></h1>
             <div className="navflex">
                 <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/"><h3>Home</h3></NavLink>
@@ -35,7 +35,7 @@ function Main() {
                 </Routes>
             </DataStore>
 
-        </div>
+        </>
     )
 }
 
