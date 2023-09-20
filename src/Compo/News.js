@@ -1,9 +1,10 @@
 import React, { useContext } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { StoreData } from '../DataStore/DataStore';
 import { NavLink } from 'react-router-dom';
 
 function News() {
+    const navi = useNavigate();
     // const data = useLocation();
     const ids = useParams().id;
     console.log(typeof (ids));
@@ -12,17 +13,32 @@ function News() {
     //displaynone to nav 
     var navitems = document.getElementsByClassName("navflex")[0];
     navitems.classList.add("disnone");
+    //css to heading 
+    var head = document.getElementsByClassName("heading")[0];
+    head.classList.add("headcss");
+    //dummy but display
+    var dum = document.getElementsByClassName("dummybut")[0];
+    dum.style.display = "block";
 
     const filteredDatas = datas.filter((item) => item.id === pid);
     console.log(filteredDatas);
     console.log(filteredDatas[0].category);
     const filteredCat = filteredDatas[0].category;
+    console.log(filteredCat);
     const filteredDatas2 = datas.filter((item) => item.category === filteredCat && item.id !== pid);
     console.log(filteredDatas2);
     const shuffledDatas = [...filteredDatas2].sort(() => Math.random() - 0.5);
     const selectedDatas = shuffledDatas.slice(0, 3);
     console.log(datas);
     // console.log(data.state);
+
+    const backbut = () => {
+        navitems.classList.remove("disnone");
+        head.classList.remove("headcss");
+
+        dum.style.display = "none";
+        navi(`/${filteredCat}`);
+    }
     return (
         <div>
             {/* <h1>Hello</h1> */}
@@ -65,6 +81,9 @@ function News() {
                                 </div>
                             </div>
                             <hr></hr>
+                            <div className='backbutdiv'>
+                                <button className='backbutton' onClick={backbut}>← Go Back</button>
+                            </div>
                             <div className='like_share'>
                                 <div className="likenshare_logo">
                                     <img className='imgfil2' src="https://www.freeiconspng.com/thumbs/youtube-like-png/youtube-like-png-19.png" alt="not found" />

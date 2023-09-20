@@ -13,7 +13,9 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 function Main() {
     return (
         <>
-            <h1 style={{ padding: 0, textAlign: "center" }}><span id='rotate'>The</span> <span className='siren'>Siren</span></h1>
+            <h1 className='heading' style={{ padding: 0, textAlign: "center" }}><span id='rotate'>The</span> <span className='siren'>Siren</span></h1>
+            <span className='dummybut' style={{ display: "none" }}>Get Started</span>
+
             <div className="navflex">
                 <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/"><h3>Home</h3></NavLink>
                 <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Bollywood"><h3>Bollywood</h3></NavLink>

@@ -406,6 +406,24 @@
     /* border: 2px solid violet; */
 }
 
+.backbutdiv {
+    /* border: 2px solid red; */
+    width: 10%;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+}
+
+.backbutton {
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+}
+
 .related_createrinfo {
     width: 70%;
     height: 6vh;
@@ -447,4 +465,26 @@
 /* display none */
 .disnone {
     display: none;
+}
+
+/* display block */
+.disblock {
+    display: inline-block;
+}
+
+/* head css in news page*/
+.headcss {
+    width: fit-content;
+    text-align: left;
+    margin-left: 10%;
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+
+.dummybut {
+    border: 2px solid rgb(84, 228, 84);
+    color: green;
+    padding: 5px;
+    float: right;
+    margin: 2% 10% 0% 0%;
 }

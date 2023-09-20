@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 
 function Technology() {
     const [datas] = useContext(StoreData);
+    // add nav bar when pressed back button from browser itself
+    // var navitems = document.getElementsByClassName("navflex")[0];
+    // navitems.classList.remove("disnone");
     // return (
     //     <div>
     //         <h2>Welcome to the world of Technology!</h2>

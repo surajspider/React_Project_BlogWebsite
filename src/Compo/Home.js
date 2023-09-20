@@ -10,6 +10,9 @@ function Home() {
     const randomone = Math.floor(Math.random() * datas.length);
     console.log(typeof (randomone))
     var count = 1;
+    // add nav bar when pressed back button from browser itself
+    // var navitems = document.getElementsByClassName("navflex")[0];
+    // navitems.classList.remove("disnone");
     return (
         <div>
             <div className='homeimgdiv'>

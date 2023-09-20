@@ -6,6 +6,9 @@ function Food() {
     const [datas] = useContext(StoreData);
     console.log(datas);
     var count = 1;
+    // add nav bar when pressed back button from browser itself
+    // var navitems = document.getElementsByClassName("navflex")[0];
+    // navitems.classList.remove("disnone");
     // const loadmore = () => {
     //     return (
     //         <div>
