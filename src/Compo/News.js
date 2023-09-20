@@ -33,7 +33,7 @@ function News() {
                             <h2>{item.topic}</h2>
                             <div className='author'>
                                 <div className='itemdiv3_logo'>
-                                    <img className="imgfil" alt="not found" src='https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1695103245_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_c1246362286bc030e55a3bc91e59352be3e733cc' />
+                                    <img style={{ borderRadius: "50%" }} className="imgfil" alt="not found" src='https://img.freepik.com/premium-vector/people-saving-money_24908-51568.jpg' />
                                 </div>
                                 <div className='createrinfo'>
                                     <h3 style={{ marginBottom: "0px" }}>Ramsuraj B</h3>
@@ -56,7 +56,7 @@ function News() {
                             <hr></hr>
                             <div className='author'>
                                 <div className='itemdiv3_logo'>
-                                    <img className="imgfil" alt="not found" src='https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1695103245_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_c1246362286bc030e55a3bc91e59352be3e733cc' />
+                                    <img style={{ borderRadius: "50%" }} className="imgfil" alt="not found" src='https://img.freepik.com/premium-vector/people-saving-money_24908-51568.jpg' />
                                 </div>
                                 <div className='createrinfo'>
                                     <h4 style={{ margin: "0px", color: "grey" }}>Written By,</h4>
@@ -93,7 +93,7 @@ function News() {
                                                 </div>
                                                 <div className='related_author'>
                                                     <div className='relateditem_logo'>
-                                                        <img className="imgfil" alt="not found" src='https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5e9582fc-efba-45da-9853-682fd88122a9&api_key=CometServer1&access_token=1695103245_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_c1246362286bc030e55a3bc91e59352be3e733cc' />
+                                                        <img style={{ borderRadius: "50%" }} className="imgfil" alt="not found" src='https://img.freepik.com/premium-vector/people-saving-money_24908-51568.jpg' />
                                                     </div>
                                                     <div className='related_createrinfo'>
                                                         <h5 style={{ marginTop: 0, marginBottom: 0 }}>Ramsuraj B</h5>
