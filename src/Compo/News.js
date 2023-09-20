@@ -9,6 +9,9 @@ function News() {
     console.log(typeof (ids));
     var pid = parseInt(ids);
     const [datas] = useContext(StoreData);
+    //displaynone to nav 
+    var navitems = document.getElementsByClassName("navflex")[0];
+    navitems.classList.add("disnone");
 
     const filteredDatas = datas.filter((item) => item.id === pid);
     console.log(filteredDatas);

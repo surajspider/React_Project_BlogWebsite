@@ -379,57 +379,363 @@ function DataStore(props) {
     },
     {
         id: 40,
-        topic: "NSYNC Reunites on MTV VMAs Stage to Present Best Pop Song to Taylor Swift",
+        topic: "‘He’s got the charisma…’: Russo Brothers spill beans on Tom Holland's epic Spider-Man casting",
         category: "hollywood",
-        info: "",
-        detail: "",
-        detail2: "",
-        date: ""
+        info: "Tom Holland had to go through a difficult selection process for Spider-Man, here’s how he got selected",
+        detail: "In an interview with GQ, the Russo brothers revealed the story behind Tom Holland’s selection to essay the role of Spider-Man. Joe and Anthony Russo revealed that the selection process of Spider-Man was definitely not an easy one. After making the cut, Holland’s career trajectory has undergone a massive change making him one of the most popular actors in Hollywood today.",
+        detail2: "Furthermore, the Russo Brothers added, “Sarah (Finn) should get all the credit for casting Holland as Spider-Man; she’s the best in the business and she knows us. We had already done two films with her. So Holland came in. He did his test. We called Sarah straight after and said, ‘Oh, my God, he’s incredible. He’s a movie star: he’s got the charisma; he’s got the range.’ It’s very rare someone walks into a room who has all the elements that make up a bona fide star. Holland had that thing.”",
+        date: "20/10/2023",
+        image: "https://www.pinkvilla.com/images/2023-09/1629742114_1280x720-tom-holland-imdb-2.jpg"
     },
     {
         id: 41,
-        topic: "",
+        topic: "Chris Evans Says Audience Appetite for Movies Like ‘Ghosted’ Is There but Apple Film “Could Have Been Better”",
         category: "hollywood",
-        info: "",
-        detail: "",
-        detail2: "",
-        date: ""
+        info: "The 'Pain Hustlers' star also spoke about going from a year with multiple releases and a marriage to Alba Baptista to this year, where he's not been on a single movie set:",
+        detail: "The man behind Captain America spoke to GQ about his 20-year journey in Hollywood, entering and leaving the MCU and how he’s grappled with fame — and anxiety — for the magazine’s latest cover story, which was conducted ahead of the SAG-AFTRA strike.",
+        detail2: "After sharing what went into his decision to almost turn down the role of Captain America, as well as his ongoing anxiety issues — two topics he’s previously discussed with The Hollywood Reporter during a 2020 Awards Chatter conversation — The Avengers star reflected on the choices behind several of his starring roles.",
+        date: "19/10/2023",
+        image: "https://www.hollywoodreporter.com/wp-content/uploads/2023/09/GettyImages-1483149820.jpg?w=1296&h=730&crop=1"
     },
     {
         id: 42,
-        topic: "",
+        topic: "‘Hell of a Summer’ Review: Finn Wolfhard’s Summer Camp Slasher Film Is Limp as Horror but Likable as Comedy",
         category: "hollywood",
-        info: "",
-        detail: "",
-        detail2: "",
-        date: ""
+        info: "Wolfhard and Billy Bryk are co-helmers, writers and stars of this film about summer camp counselors being stalked by a killer.",
+        detail: "At 24 years-old, Jason Hochberg (Fred Hechinger) is officially too old to be into summer camp. But he passes up a law internship anyway to come to Camp Pineway and be a counselor one last time. Once Jason arrives, he’s not only the oldest counselor there; he’s immediately ostracized for his childlike eagerness toward camp activities. The rest of the counselors mainly have flirting and partying in mind. ",
+        detail2: "Bobby (Billy Bryk) wants girls to like him, but he tries too hard and turns them off. Chris (Finn Wolfhard) already has a thing with Shannon (Krista Nazaire), but they’re hiding it from Bobby. Mike (D’Pharaoh Woon-A-Tai) and Demi (Pardis Saremi) are a stereotypically gorgeous couple. The rest of the teens fit easily into high-school comedy archetypes — Ezra (Matthew Finlan) is queer and loves theater, Ari (Daniel Gravelle) is the self-serious film buff, Miley (Julia Doyle) is the self-righteous vegan and Noelle (Julia Lalonde) is the goth girl obsessed with the afterlife. Despite their differences, they all have one thing in common: an immediate dislike of Jason and his earnest love of the camp.",
+        date: "18/10/2023",
+        image: "https://www.hollywoodreporter.com/wp-content/uploads/2023/09/hellofasummer_01_hero-H-2023.jpg?w=1296&h=730&crop=1"
     },
     {
         id: 43,
-        topic: "",
+        topic: "‘Dune 2’ Updates: Release Date Delayed To 2024 & Everything Else You Need To Know",
         category: "hollywood",
-        info: "",
-        detail: "",
-        detail2: "",
-        date: ""
+        info: "The 'Dune 2' hype is as big as a sandworm. However, the second film's release date has been pushed back amid the Hollywood strikes.",
+        detail: "Dune 2 is going to be even bigger and more epic than the first film. After the first trailer was released on May 3, the second film is already surpassing expectations. Denis Villeneuve has returned to direct Dune: Part Two, which will undoubtedly be one of the biggest movies of 2024. Unfortunately, Dune: Part Two has become the latest film to be delayed as the Hollywood strikes continue.",
+        detail2: "Timothée Chalamet, Zendaya, and Denis debuted the first trailer at CinemaCon, and the video was released wide on May 3. The footage revealed Florence Pugh’s Princess Irulan talking about the secrets of Arrakis and Austin Butler completely bald as Feyd-Rautha. Nearly two months after the first trailer dropped, a second one was released on June 29. The new footage showed Timothée and Zendaya gearing up for battle and revealed Christopher Walken as Emperor Shaddam IV. HollywoodLife has rounded up all the details we know so far, including the new release date, the star-studded cast, and more.",
+        date: "25/08/2023",
+        image: "https://hollywoodlife.com/wp-content/uploads/2023/05/dune-2-trailer-zendaya-and-timothy-warner-bros-embed.jpg"
     },
     {
         id: 44,
-        topic: "",
+        topic: "'That was the intention behind it' Millie Bobby Brown reveal palns to adapt her novel Nineteen Steps into movie amid her wedding plans",
         category: "hollywood",
-        info: "",
-        detail: "",
-        detail2: "",
-        date: ""
+        info: "Millie Bobby Brown plans to adapt her debut novel, Nineteen Steps, into a movie, based on her grandmother's World War II experiences in London's East End",
+        detail: "Millie Bobby Brown, renowned for her role in Stranger Things, has revealed her plans to adapt her debut novel, Nineteen Steps, into a feature film. This exciting revelation came during her appearance on the Lorraine show on September 12. Brown's novel is based on her grandmother's experiences in London's East End during World War II. Here's what Brown said.",
+        detail2: "When asked by the show's host, Lorraine Kelly, if she intended to turn her book into a movie, Brown enthusiastically responded, 'Yes, definitely. That was the intention behind it. Naturally, I just want to create more, so, yes, this is a great foundation.'",
+        date: "19/10/2023",
+        image: "https://www.pinkvilla.com/images/2023-09/82897561_millie-bobby-brown-img.jpg"
     },
     {
         id: 45,
-        topic: "",
+        topic: "Toronto: Cord Jefferson’s ‘American Fiction’ Wins Audience Award",
         category: "hollywood",
-        info: "",
-        detail: "",
-        detail2: "",
-        date: ""
+        info: "The top People's Choice honor was unveiled Sunday amid little celebrity heat at a TIFF upended by dual Hollywood actors and writers strikes and an uncertain awards season.",
+        detail: "Cord Jefferson’s American Fiction picked up the top People’s Choice honor Sunday at the Toronto Film Festival, which wrapped up a 48th edition with little Hollywood star wattage amid the uncertainty of dual Hollywood strikes.",
+        detail2: "“My gratitude towards everyone who watched American Fiction [and] discussed it afterwards among friends and colleagues is endless. The film is now in your hands, and I’m so grateful that it was embraced in this way,” Jefferson said in a statement Sunday morning.",
+        date: "17/10/2023",
+        image: "https://www.hollywoodreporter.com/wp-content/uploads/2023/09/american-fiction-F_01562_rgb-H-2023.jpg?w=1296&h=730&crop=1"
+    },
+    {
+        id: 46,
+        topic: "8 signs that your body is warning you against hitting the treadmill",
+        category: "fitness",
+        info: "While exercise is crucial for good health, it's important to pay attention to body signals during exercise, as pushing too hard can have serious consequences.",
+        detail: "Regular exercise and an active lifestyle are considered heart-healthy habits, but going overboard with workout can be detrimental. The recent case of a young man losing his life after having a heart attack in gym has brought to focus the adverse effects of overexercising. It also makes us wonder if one can read the signs of cardiac trouble beforehand and take measures to prevent a heart attack. Experts say if you are feeling dizzy, having chest pain or discomfort, shortness of breath, nausea, fatigue or weakness, you should avoid hitting the treadmill that day to prevent risk of heart attack. (Also read: Heart attack cases not rising due to Covid vaccine, but stress and other traditional factors, says cardiologist)",
+        detail2: "People going to the gym mostly are young people. So, if you are having palpitation, shortness of breath, or fatiguability, these are the symptoms and signs a person is having at intervals, not on a regular basis, so first he should get his cardiovascular system checked up then only he should go for any treadmill, or gym or external exercise. ",
+        date: "18/10/2023",
+        image: "https://www.hindustantimes.com/ht-img/img/2023/09/18/550x309/treadmill_1678197957178_1695033067469.jpg"
+    },
+    {
+        id: 47,
+        topic: "For a good heart workout, it's OK to wait for the weekend, new research finds",
+        category: "fitness",
+        info: "Getting 150 minutes of moderate to vigorous activity a week is the goal, whether it's done in one or two days or spread out through the week.",
+        detail: "Adults should get 150 minutes of moderate to vigorous activity per week, most guidelines recommend, with the typical advice to spread it out through the week. Harvard researchers were surprised to find that people who jammed their 2.5 hours of activity into one or two days cut their risk of heart attack by 27%, compared to 35% among people who exercised more days of the week. 'Weekend warriors' also saw heart failure risk drop by 38%, compared to 36% among regular exercisers, the new study published Tuesday in JAMA found.",
+        detail2: "The bottom line, Ellinor said, is that “getting 150 minutes of moderate to vigorous activity a week is the goal, however you get there.”",
+        date: "15/10/2023",
+        image: "https://media-cldnry.s-nbcnews.com/image/upload/t_focal-380x380,f_auto,q_auto:best/rockcms/2023-07/230718-running-stock-mn-10102-d10a9d.jpg"
+    },
+    {
+        id: 48,
+        topic: "Daily Exercise Routine for Men: Essential Workouts",
+        category: "fitness",
+        info: "Stay fit and healthy with these recommended exercises for men. Discover the best exercises to incorporate into your daily routine for optimal health and wellness.",
+        detail: "Regular physical activity is important to maintaining good health. According to federal guidelines, adults should engage in at least 150 minutes (2 hours and 30 minutes) of moderate-intensity or 75 minutes (1 hour and 15 minutes) of vigorous-intensity aerobic activity each week. Moderate-intensity activity includes activities such as brisk walking, hiking, water aerobics and dancing.",
+        detail2: "The guidelines also recommend that adults do moderate or more intense muscle-strengthening activities that work out all major muscle groups two or more days a week.",
+        date: "11/04/2023",
+        image: "https://www.usnews.com/object/image/00000186-51bf-deca-adff-7bff23140001/gettyimages-1217756425.jpg?update-time=1676408725554&size=responsive300"
+    },
+    {
+        id: 49,
+        topic: "Best Exercises for Stronger Biceps",
+        category: "fitness",
+        info: "Whether you're trying to learn how to make your biceps look bigger or wanting to strengthen this important functional muscle, this biceps workout plan includes the best exercises for working out your biceps.",
+        detail: "The quest for bigger biceps is timeless. Ask anyone from a young child to an experienced athlete to show you their muscles, and they’ll almost always raise their arm and flex their biceps in response. It’s the classic “mirror muscle,” meaning that people value bigger and stronger biceps because of their impact on their appearance.",
+        detail2: "The biceps muscles, which are technically called the biceps brachii and are found on the front of the upper arms, play a role in flexing the elbow and shoulder joints and in rotating the forearm so that the palm faces upward. In addition, the biceps help to keep the shoulder joint stable during many arm movements.",
+        date: "10/08/2023",
+        image: "https://www.usnews.com/object/image/00000189-d0bf-de3f-ad89-d2ffea780000/gettyimages-1162195270.jpg?update-time=1691424424914&size=responsiveFlow300"
+    },
+    {
+        id: 50,
+        topic: "10 Forms of Resistance Training That Strengthen Your Muscles",
+        category: "fitness",
+        info: "Resistance training is crucial to the health of your back, knees, legs and shoulders.",
+        detail: "Resistance training is a vital part of a health regimen for people of every age and any gender, says Jonathan Jordan, a certified personal trainer based in San Francisco.",
+        detail2: "“It aids in the development and maintenance of muscle mass, which keeps our bones and joints strong and mobile into old age,” he says. “It adds balance to our bodies that get weakened from hours spent sitting and typing.”",
+        date: "20/10/2023",
+        image: "https://www.usnews.com/object/image/00000165-c464-da3c-a177-fffdb35b0000/180910-kickboxing-stock.jpg?update-time=1536598391536&size=responsive300"
+    },
+    {
+        id: 51,
+        topic: "The Best Yoga Poses for Male Pelvic Floor Health",
+        category: "fitness",
+        info: "These yoga poses can help men have better pelvic floor health. Practice these yoga poses to improve urinary and bowel control and potentially improve sexual function.",
+        detail: "A healthy pelvic floor for men means having normal and pain-free bowel, bladder and sexual function. According to Susie Gronski, a doctor of physical therapy who specializes in male pelvic health, yoga is an effective way for men to maintain a healthy pelvic floor.",
+        detail2: "Practicing specific contractions while in certain yoga poses helps if you have a problem with sexual, bowel and urinary function. Gronski suggests men engage the muscles around the genitals as if you were about to urinate and were holding it back. Or, she says, imagine you’re drawing the base of your penis inward.",
+        date: "05/06/2023",
+        image: "https://www.usnews.com/object/image/00000189-264b-d17c-a7ff-eecf50e50000/gettyimages-1248775871.jpg?update-time=1688564672019&size=responsive300"
+    },
+    {
+        id: 52,
+        topic: "Top Exercises for Back Strengthening",
+        category: "fitness",
+        info: "There are many muscles in your back, but strengthening them doesn't have to be complicated. Here are the best exercises for improving back strength, plus a sample workout plan for training your back muscles.",
+        detail: "Understanding the functions of all the muscles in the back is complex, but training them does not have to be. The muscles of the back help us do everything from standing up straight and opening doors to rotating our upper body to throw a baseball or hit a golf ball. Strengthening back muscles can also help reduce some types of back pain.",
+        detail2: "These muscles have a variety of different functions and help your body move in different angles and directions. This is why fitness facilities typically feature a number of machines (e.g., the lat pull-down and back extension machines), as well as pull-up bars and free weights, that can be used to train the many muscles and movements of the back.",
+        date: "18/05/2023",
+        image: "https://www.usnews.com/object/image/00000165-a5bd-dcec-a5ed-e7ff57920000/gettyimages-568776037.jpg?update-time=1536083974035&size=responsiveFlow300"
+    },
+    {
+        id: 53,
+        topic: "Post-Workout Protein: Separating Fact from Fiction",
+        category: "fitness",
+        info: "Do you really need protein right after your workout? Learn what the science says about post-workout nutrition and how to optimize your recovery.",
+        detail: "Why does protein consumption matter? Well, exercise, especially tough workouts, creates microscopic damage within the worked muscles' cells, which are composed of proteins. The protein you eat supplies the building blocks that make up your muscles. These building blocks, or amino acids, help repair damaged muscle proteins and form new ones, with the ultimate goal of creating stronger, bigger and fitter muscles, explains Oliver Witard, a protein metabolism researcher and senior lecturer at King's College London.",
+        detail2: "The post-workout chunk of time when exercisers should consume protein is called the 'anabolic window.' The idea is that muscles are more sensitive to protein and therefore more likely to absorb and use protein immediately after exercise than they are later in the day.",
+        date: "23/08/2023",
+        image: "https://www.usnews.com/object/image/00000186-c342-d4d2-a9c6-c36a7fee0000/gettyimages-610231236.jpg?update-time=1678313216846&size=responsiveFlow300"
+    },
+    {
+        id: 54,
+        topic: "Should You Workout on the Treadmill or Exercise Bike?",
+        category: "fitness",
+        info: "Compare the benefits and drawbacks of the treadmill and exercise bike, and understand which one is better for your cardio workout goals.",
+        detail: "Either way, whether you’re looking to add cardio equipment to your home gym or deciding which machine at the gym to use, both the treadmill and the exercise bike can offer a great workout. But the positives and negatives associated with each machine depend on you and what exactly you want to get out of your workout.",
+        detail2: "There are some important differences between the two types of gym equipment, and there are several factors you should consider when looking for the right one. These factors include:",
+        date: "24/07/2023",
+        image: "https://www.usnews.com/object/image/00000186-32d3-d389-abee-fbf34d860000/gettyimages-166935089.jpg?update-time=1675890012889&size=responsiveFlow300"
+    },
+    {
+        id: 55,
+        topic: "The Best Gym Machines for Women",
+        category: "fitness",
+        info: "Discover the best gym equipment for women and how they work. Read more.",
+        detail: "Working out provides a wide range of health benefits, both physical and mental, for women and men. Whether you're working out to build muscle, to lose a few pounds or to take on a new fitness challenge, launching and sticking with a fitness routine is a great way to boost your health.",
+        detail2: "'No woman should feel intimidated in the gym,' says Alex Lyons, a certified personal trainer at HOA+ (House of Athlete Plus), a digital fitness platform, based in Brooklyn, New York. 'Machines offer a way to learn proper form and tension mechanics, so you can continue to level up your fitness as you get stronger. They offer the ability to increase stability.'",
+        date: "18/10/2023",
+        image: "https://www.usnews.com/object/image/00000185-ea19-d871-a59d-fe7de8590000/gettyimages-532029467.jpg?update-time=1674669890090&size=responsive300"
+    },
+    {
+        id: 56,
+        topic: "The Best Supplements for Athletes",
+        category: "fitness",
+        info: "Fuel your body like an athlete with the best supplements for those who train hard.",
+        detail: "Whether you work out in the gym to drop a few pounds, get stronger or train for a sport, you should use a 'whole foods' approach to fuel your performance, recovery from workouts and for your overall health. That means emphasizing whole foods like fresh fruits, vegetables, whole grains and lean sources of protein. However, supplements can be helpful for some individuals.",
+        detail2: "'In certain instances, sports supplements can assist achieving optimal fueling when whole foods are not available or sufficient,' says Kaylee Jacks, a registered dietitian with Texas Health Sports Medicine in Dallas.",
+        date: "15/07/2023",
+        image: "https://www.usnews.com/object/image/0000017b-a840-db05-ab7f-fac524a10000/supplements.jpg?update-time=1630615381244&size=responsive300"
+    },
+    {
+        id: 57,
+        topic: "Yoga For Seniors: Age Gracefully With 5 Daily Asanas For Strength, Flexibility And Balance",
+        category: "fitness",
+        info: "Yoga offers older people a holistic approach to ageing gracefully. From improving physical health to balance here are some daily yoga asanas to practice to alleviate common age-related issues. Read on.",
+        detail: "Ageing is an inevitable part of life, and while it comes with its share of wisdom and experience, it also brings physical and mental changes that can be challenging. One effective and holistic approach to ageing gracefully is the practice of yoga.  ",
+        detail2: "Yoga is not just for the young and flexible; it offers numerous benefits for seniors as well. In this article, we will explore how yoga can help seniors maintain physical health, improve mental well-being, and enhance the quality of their golden years.",
+        date: "14/08/2023",
+        image: "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2023/09/11/1278723-elderly-yoga.png?im=FitAndFill=(700,400)"
+    },
+    {
+        id: 58,
+        topic: "5 best hamstring exercises for rock solid muscles and stronger legs",
+        category: "fitness",
+        info: "Hamstrings also need attention while doing lower body workout. We bring to you the best hamstring exercises.",
+        detail: "When it comes to lower body workout, the hamstrings, which are responsible for bending our knees and extending our legs, don’t get much love. They are a group of three muscles located at the back of your thigh, between the hip and the lower leg. You need to have strong hamstrings so that you don’t have trouble walking or running. All you need to do is include some hamstring-strengthening exercises in your workout regime. Read on to find out the best hamstring exercises that you can do.",
+        detail2: "Many people focus more on the muscles they can see in the mirror, and neglect their hamstrings while working out. If you are one of them, you are making a mistake. Fitness expert Varun Rattan says if your hamstrings are weaker than your quadriceps (the muscles at the front of your thigh), you may develop an anterior pelvic tilt. It’s when your pelvis tilts forward and causes your lower back to arch excessively.",
+        date: "20/10/2023",
+        image: "https://www.mensjournal.com/.image/t_share/MTk2MTM1Nzc1ODY1NjExNDA5/hamstring-exercises.jpg"
+    },
+    {
+        id: 59,
+        topic: "Are you doing your ab workout properly? Tips to get a flat belly",
+        category: "fitness",
+        info: "If you want to get rid of belly fat and want sculpted abs, incorporate these exercises into your workout routine. Plus, learn how to perform them correctly to maximise the impact and achieve your fitness goals.",
+        detail: "Who doesn’t want chiseled abs and a sculpted waistline? The quest for the perfect midsection is an endless battle most of us long for. If you have been looking at every person with abs with envious eyes, it is time for you to get them too. You need to combine exercise and the right diet, but most importantly have determination, discipline and know how to get a flat belly the right way. So, let’s get started on the journey to shape your waist!",
+        detail2: "Certified fitness coach and nutrition coach Tanvi Parikh recently took to her Instagram to share 4 of the best exercises to shape your waist and how to do it properly.",
+        date: "23/09/2023",
+        image: "https://hips.hearstapps.com/hmg-prod/images/young-man-tired-after-training-showing-his-royalty-free-image-1663238417.jpg"
+    },
+    {
+        id: 60,
+        topic: "Workout injuries: 7 fitness mistakes that cause injuries while exercising at home",
+        category: "fitness",
+        info: "Exercising at home can be fun, convenient, and cost-effective. However, beware of the risk of home workout injuries.",
+        detail: "When the Covid-19 pandemic hit the world, with closed gyms and studios, most people turned to working out from home. Home workouts offer several boons – from sparing ourselves the pain of looking out for a good gym to investing in fancy gym wear or accessories. Carving out little space for home workouts can offer extraordinary results, and it is also convenient and cost-effective. You can procure some basic gym equipment or roll out your yoga mat and hit it daily for an intensive value-added session. The bonus is that home workouts also offer you a chance to bond with your loved ones by trying out buddy workouts. However, injuries can happen anytime while you are following your high-intensity workout regime or lifting weights with improper posture. Some people indulge in aggressive workouts at home that lead to the tearing up of muscles or can aggravate any existing injuries such as knee or joint pain.",
+        detail2: "Health Shots got in touch with Dr Mickey Mehta, Global Leading Holistic Health Guru and Corporate Life Coach, to understand the cause of common injuries during home workouts.",
+        date: "02/08/2023",
+        image: "https://navbharattimes.indiatimes.com/thumb/96480305/avoid-these-mistakes-during-exercise-which-causes-cervical-pain-know-workout-mistakes-96480305.jpg?imgsize=1662399&width=1200&height=900&resizemode=75"
+    },
+    {
+        id: 61,
+        topic: "5 Tasty One-pot Rice Dishes Perfect For A Relaxing Weekend",
+        category: "food",
+        info: "The weekend is finally here! It's that time when you can kick back with your loved ones, take leisurely strolls, or enjoy a good movie. ",
+        detail: "No discussion of Indian rice dishes is complete without mentioning Biryani. It's a beloved classic, and you can prepare it with either veggies or meat. Our Hyderabadi Murg Dum Biryani recipe is here to make your weekend special with its delectable flavours.",
+        detail2: "Mexican cuisine has a special appeal to Indian palates, thanks to its familiar yet distinct flavours. Mexican Rice is a delightful dish that comes together in no time. It pairs wonderfully with nachos, salsa, or guacamole, making it an ideal choice for a weekend treat.",
+        date: "23/08/2023",
+        image: "https://drop.ndtv.com/albums/COOKS/5-tasty-one-pot_638303944059958862/638303944088395170.png"
+    },
+    {
+        id: 62,
+        topic: "Watch: This Phenomenal Hack To Store Leftover Pizza Slices Is A Game-Changer",
+        category: "food",
+        info: "Viral video: Rather than shifting the pizza to a small container, here is a genius hack to convert that big pizza box into a smaller one, just the right size to fit in your leftover pizza.",
+        detail: "Pizza is probably one of the most ordered dishes across the globe. The cheesy Italian delight is loved by everyone and is the perfect treat to indulge in when you don't want to cook or are bored of the regular meals cooked at home. A huge round pizza platter with multiple slices is so tempting that you think you'll be able to finish off the whole thing all by yourself. It's only when you are halfway through you realise that it might not be possible to wipe off all the heavily loaded pizza slices. More often than not, you are left with few slices that you don't mind saving for later.",
+        detail2: "The only issue we face while storing pizza is to keep that huge pizza box on the narrow shelf of our refrigerator, even if it is for just one slice. Rather than shifting the pizza to a small container, here is a genius pizza hack to convert that big pizza box into a smaller one, just the right size to fit in your leftover pizza.",
+        date: "11/07/2023",
+        image: "https://c.ndtvimg.com/2021-03/8nmivv2_pizza-box_625x300_19_March_21.jpg"
+    },
+    {
+        id: 63,
+        topic: "Ganesh Chaturthi 2023: Traditional Maharashtrian Recipes for a Festive Thali | WATCH",
+        category: "food",
+        info: "Ganesh Chaturthi 2023: Celebrate Vinayaka Chaturthi with a traditional Maharashtrian thali!",
+        detail: "Ganesh Chaturthi, which marks the birth of Lord Ganesha, is a widely celebrated festival in Maharashtra. This year, the festival is set to commence on September 19. Lord Ganesh is revered as the deity of knowledge, prosperity, and good fortune during this 10-day-long occasion. Throughout the festival, devotees offer prayers and a variety of cuisines to seek his blessings and appease him. Here are some traditional Maharashtrian dishes to consider serving this year:",
+        detail2: "Masale Bhat is a simple yet flavorful rice dish infused with regional spices and a medley of vegetables. This traditional and spicy Maharashtrian meal typically incorporates ingredients like ivy gourd (tendli), eggplant, or brinjal, along with a variety of other vegetables such as potatoes, carrots, peas, and even cauliflower. Masale Bhat is often enjoyed without any accompaniments, but it pairs nicely with basic raita or yoghurt. Traditionally, it’s considered a one-pot meal or a complete dinner that doesn’t require additional side dishes. However, it is frequently served in a thali.",
+        date: "01/09/2023",
+        image: "https://images.news18.com/ibnlive/uploads/2023/09/ganesh-chaturthi-2023-maharashtrian-thali-16947856943x2.jpg?impolicy=website&width=510&height=356"
+    },
+    {
+        id: 64,
+        topic: "Behind The Scenes: Watch How Paneer Cheese Samosas Are Made In Gujarat",
+        category: "food",
+        info: "Samosas, those beloved deep-fried treats that hold a cherished spot in the hearts of every Indian, have never failed to tantalise our taste buds.",
+        detail: "Samosas, those beloved deep-fried treats that hold a cherished spot in the hearts of every Indian, have never failed to tantalise our taste buds. With their crispy exterior crafted from all-purpose flour and a spicy potato filling inside, they've long been the go-to snack paired with vibrant green and red chutneys. Yet, there are those daring enough to break the traditional mold, offering up delectable samosa variations like moong dal samosa, noodle samosa, and mushroom samosa. And now, adding a new twist to this iconic snack, we introduce you to the Paneer Cheese Samosa.",
+        detail2: "This tantalising treat hails from Gujarat and is showcased in a captivating video shared by food blogger Amar Sirohi, also known as 'foodie_incarnate' on YouTube.",
+        date: "14/06/2023",
+        image: "https://c.ndtvimg.com/2023-03/r2tmmar8_samosa_240x180_10_March_23.jpg"
+    },
+    {
+        id: 65,
+        topic: "This Fuss-Free Golgappa Recipe Received Over 21 Million Views On Instagram",
+        category: "food",
+        info: "A recent viral video on Instagram features an Indian chef who guides you through the process of making golgappas in the comfort of your kitchen.",
+        detail: "Golgappas, also known as pani puri, pani ke patashe, fulki, and puchka, are a beloved street food that has captured the hearts of people across India. Regardless of the name you use, the irresistible taste of golgappas is a universal delight. While the experience of enjoying these bite-sized wonders on a bustling street corner is unmatched, have you ever contemplated making them at home?",
+        detail2: "It might sound like a daunting task, but fear not, for there is a video making waves on Instagram featuring an Indian chef who guides you through the process of making golgappas in the comfort of your kitchen. The video has garnered millions of views, and food enthusiasts are loving it.",
+        date: "16/08/2023",
+        image: "https://c.ndtvimg.com/2023-09/h5k0u7_pani-puri_625x300_19_September_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 66,
+        topic: "World Coconut Day: 5 Coconut-Based Drinks To Refresh Your Mood",
+        category: "food",
+        info: "World Coconut Day is being celebrated on September 2. Here are 5 delicious coconut-based drinks you can enjoy on this day.",
+        detail: "Coconut has always been an integral part of Indian cuisine and culture likewise. Right from distributing dry coconuts in the form of prashad to preparing nariyaal ki barfi, the options are unlimited. You can also prepare an array of sweet and savoury dishes. Also, coconut oil is largely used in preparing various delicacies in the southern part of the country. ",
+        detail2: "And, we just cannot overlook its health benefits. To highlight the importance of this fruit, World Coconut Day is marked on September 2. Wondering how can you celebrate this day? Here, we have listed about five recipes for delicious drinks that use coconut in some way or another.",
+        date: "13/08/2023",
+        image: "https://c.ndtvimg.com/2022-05/4ks5p5jo_coconut-water-recipes-_625x300_12_May_22.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 67,
+        topic: "For The Love Of Tea: 5 Teas To Match Your Every Mood",
+        category: "food",
+        info: "Did you know you can sip on tea that suits your mood as well? Read on to know more.",
+        detail: "Tea is not just a beverage in India; it's an emotion. Many people rely on a cup of hot kadak chai to kick-start their day. Similarly, it's a must to conclude your day in the evening with scrumptious snacks. While these are the most preferred times to enjoy tea, did you know you can sip on tea that suits your mood as well? Whether you're feeling under the weather, sad, or just looking for a pick-me-up, there's a tea that you can match according to these particular situations. There are so many different varieties of tea to choose from, which makes this even more exciting. So, tea lovers, let's explore these teas and the mood they fit best for.",
+        detail2: "The struggle to fall asleep at night is real. Sometimes, even after a long day at work, many people find it hard to get a good night's sleep. If you often face this problem, a cup of warm chamomile tea might be the solution you're looking for.",
+        date: "19/09/2023",
+        image: "https://c.ndtvimg.com/2019-02/ssgmefco_peppermint-tea_625x300_28_February_19.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 68,
+        topic: "Eating Protein Or Drinking Protein: What's Better?",
+        category: "food",
+        info: "Protein is important for us but not all of us get enough of it. Read the article to know how much and how to get your daily protein fix.",
+        detail: "Protein is an essential macronutrient which (apart from water) makes up most of our body. It constitutes our skin, muscles, hormones, enzymes, bones, blood, etc. However, unlike other macronutrients present in the body, like carbohydrates and fat, our body has no reserve to store protein.",
+        detail2: "Seeing that a large percentage of our population in India is vegetarian, stress has been put on the fact that a lot of us do not get enough protein in our daily diets. And so comes the question of whether you should eat your protein or should you drink your protein.",
+        date: "12/08/2023",
+        image: "https://c.ndtvimg.com/2023-09/c1rjge3_protein_625x300_18_September_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 69,
+        topic: "Calling All Paneer Tikka Lovers! 4 Fantastic Ways To Prepare It",
+        category: "food",
+        info: "Looking for ways to make scrumptious paneer tikka at home? Here are four different ways to get started:",
+        detail: "Paneer tikka is one of those snacks that you'll easily find everywhere. Whether you're at a dinner party or a wedding, it always finds its way onto the menu. And why not? Soft paneer cubes marinated with flavourful masalas make it an absolute delight to indulge in. ",
+        detail2: "However, the only downside to this snack is that it's traditionally prepared in a tandoor, which gives it its distinct taste. Now, of course, it's practically impossible to have a tandoor at home. This is why we end up ordering it from outside. But when made fresh at home, it offers an even more incredible flavour. To help you out, we'll be sharing four different ways in which you can make this delectable snack at home.",
+        date: "19/09/2023",
+        image: "https://c.ndtvimg.com/2023-09/2fugrm2_paneer-tikka_625x300_18_September_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 70,
+        topic: "Enjoy Lip Smacking Mutton Seekh Kebab Rolls With This Recipe",
+        category: "food",
+        info: "Mutton Seekh Kebab is a go-to dish during the monsoon season for many.",
+        detail: "Mutton Seekh Kebab roll is one dish that can be savoured at any time of the day. It can be eaten as a snack or main course. It is a go-to dish during the monsoon season for many. Seekh kebab rolls take inspiration from the traditional kathi rolls of West Bengal. It is a fusion of street food and classic Indian dish. Pieces of succulent grilled meats are cooked in aromatic and enticing Indian flavours. The pieces are then mixed in a yogurt-based sauce and wrapped in a soft flatbread with lettuce, and slices of onions.",
+        detail2: "The roll is best enjoyed with mint green chutney. Mutton Seekh Kebab offers a delightful experience. The amalgamation of tender mutton pieces with traditional aromatic spices gives mutton a delicious and smoky flavour. The innovative twist in the dish which is wrapping the mutton in soft flatbread is fun and offers a fulfilling experience. The dish is wholesome and capable of comforting the taste buds of any connoisseur. The texture of tender mutton pieces and the soft crust of the flatbread enjoyed with the tanginess of the mint-flavoured chutney can satiate any epicure.",
+        date: "25/06/2023",
+        image: "https://images.news18.com/ibnlive/uploads/2023/07/mutton-seekh-kebab-16903020023x2.jpg?impolicy=website&width=510&height=356"
+    },
+    {
+        id: 71,
+        topic: "The Cheesier, The Better - Make Cheesy Pasta With Vegetables For A Truly Indulgent Meal",
+        category: "food",
+        info: "Cheesy pasta with the addition of crunchy and colourful veggies is always a delight to have. Make it at home easily with this recipe.",
+        detail: "Cheesy pasta with the addition of crunchy and colourful veggies is always a delight to have. Make it at home easily with this recipe.",
+        detail2: "The gooey cheese and crunchy vegetables come together to elevate the pasta and give us a wholesome dish that satisfies all our foodie desires.",
+        date: "18/07/2023",
+        image: "https://c.ndtvimg.com/2023-09/pvpnbv08_cheesy-pasta-with-vegetables_625x300_13_September_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 72,
+        topic: "Love Idli? Spice It Up With This Kanchipuram Idli Recipe",
+        category: "food",
+        info: "Kanchipuram idli recipe: Regionally, it is referred to as kovil idli and includes several spices including hing, cumin, and curry leaves amongst others.",
+        detail: "Idli has a universal appeal and makes for a wholesome meal any time of the day. Though the dish finds its origin in a South Indian kitchen, today you will find it being widely enjoyed across India (and abroad). In fact, idli is possibly the second most popular dish, defining the cuisine of South India - the first being dosa. Now that you know how to make soft and fluffy idlis at home, it's time to take a step forward and try your hands on the regional versions. You heard it right. ",
+        detail2: "Traditionally, idli is a steamed cake made with fermented rice and dal batter. But if you explore, you will come across multiple recipes, with unique variations to it. One such instance is Kanchipuram idli.",
+        date: "16/08/2023",
+        image: "https://c.ndtvimg.com/2023-03/bqv0c5po_idli_625x300_29_March_23.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 73,
+        topic: "Craving Noodles? Order On NDTV Big Bonus App This Weekend And Earn Rewards",
+        category: "food",
+        info: "Noodles are the ultimate indulgence for a weekend treat. Order them and earn up to 5% in rewards",
+        detail: "Noodles are our all-time favourite treat. Whether we are hungry at odd hours or looking for something indulgent to have for lunch or dinner, this Indo-Chinese delight always comes to our rescue. The best part is that there are so many exciting versions of noodles that make us crave them even more. As the weekend is right here, what better time to treat yourself to some mouth-watering noodles than now? Instead of making them at home, we suggest you sit back and relax and order them from Wow! China.",
+        detail2: "Why, you ask? Well, if you use the NDTV Big Bonus App to order them, you receive gift coupons on your purchases and up to 5% in rewards on the app. So, hurry and download the NDTV Big Bonus App from the App Store or Google Play, register on the app, and link your bank cards to earn these rewards. Don't worry, linking your credit and debit cards is completely secure, allowing you to make the most of your order while earning simultaneously.",
+        date: "15/09/2023",
+        image: "https://c.ndtvimg.com/2023-08/d38jspv8_noodles_625x300_04_August_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 74,
+        topic: "'Don't Insult Momo': Internet Reacts To Lucknow Street Vendor Selling Healthy Momos",
+        category: "food",
+        info: "Lucknow Street Healthy Momos: In the video, the vendor skillfully takes a cabbage leaf, lays it out on the counter, and wraps it around the momo filling.",
+        detail: "When it comes to street food, who can resist the mouthwatering allure of momos? From cheese-loaded delights to chicken-packed options, tandoori twists, and classic veggie wonders, there is a momo for every palate. Each of us holds a steadfast favourite close to our hearts. Yet, for those conscious of health and the gym buffs among us, momos can sometimes feel like a guilty pleasure due to their all-purpose flour outer layer. But wait, a street vendor in Lucknow has unveiled the secret to guilt-free momos.",
+        detail2: "In an Instagram video, she proudly presents momos wrapped in a cabbage leaf and offers a healthy twist to this beloved snack. However, the die-hard momo lovers were not ready to embrace this unconventional creation. ",
+        date: "11/10/2023",
+        image: "https://c.ndtvimg.com/2023-07/kbdiqnog_momos_625x300_21_July_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
+    },
+    {
+        id: 75,
+        topic: "What Is Swiss Roll And What Is It Made Out Of? All You Need To Know",
+        category: "food",
+        info: "Swiss Roll: The soft and spongy treat is very fondly remembered by people as being an integral part of their childhood.",
+        detail: "Thanks to the rapid expansion of the internet, there are so many amazing recipes that we come across every day from all over the world. From bagels to doughnuts, croissants to muffins - these are some dishes we are now quite familiar with. Another dessert that we have often seen on our social media feeds is the Swiss Roll.",
+        detail2: "The soft and spongy treat is very fondly remembered by people as being an integral part of their childhood. But what exactly is the Swiss roll and what goes into its making? Here's all you need to know about this humble dessert and its interesting origins.",
+        date: "13/07/2023",
+        image: "https://c.ndtvimg.com/2022-12/eafkb01o_swiss-roll_625x300_11_December_22.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350"
     },
     ])
     return (

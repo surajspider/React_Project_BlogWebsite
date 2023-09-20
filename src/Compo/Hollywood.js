@@ -65,7 +65,7 @@ function Hollywood() {
                             </div>
                         )
                     })}
-                    {datas.filter((item) => item.id >= 33 && item.id < 36).map((item, index) => {
+                    {datas.filter((item) => item.id >= 38 && item.id < 41).map((item, index) => {
                         return (
                             <div key={index}>
                                 <Link style={{ textDecoration: "none", color: "black" }} to={'/news/' + item.id} state={item.id}>

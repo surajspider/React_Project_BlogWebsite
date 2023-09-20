@@ -7,6 +7,8 @@ function Home() {
     const filteredDatas = datas.filter((item) => item.id % 3 === 0);
     const shuffledDatas = [...filteredDatas].sort(() => Math.random() - 0.5);
     const selectedDatas = shuffledDatas.slice(0, 8);
+    const randomone = Math.floor(Math.random() * datas.length);
+    console.log(typeof (randomone))
     var count = 1;
     return (
         <div>
@@ -47,7 +49,7 @@ function Home() {
                         <div className='leftcat'>
                             <h2 className='h2topname'>Latest Articles</h2>
                             <hr className='hrredline'></hr>
-                            {datas.filter((item) => item.category === "bollywood" && item.id >= 2 && item.id <= 8).map((item, index) => {
+                            {datas.filter((item) => (item.id % 4 === 0 || item.id % 3 === 1)).sort(() => Math.random() - 0.5).slice(0, 7).map((item, index) => {
                                 return (
                                     <div key={index}>
                                         <NavLink style={{ textDecoration: "none", color: "black" }} to={`/news/${item.id}`}>
@@ -72,7 +74,7 @@ function Home() {
                         <div className='rightcat'>
                             <h2 className='h2topname'>Top Posts</h2>
                             <hr className='hrredline'></hr>
-                            {datas.filter((item) => item.id === 9).map((item, index) => {
+                            {datas.filter((item) => item.id === 14).map((item, index) => {
                                 return (
                                     <div key={index}>
                                         <Link style={{ textDecoration: "none", color: "black" }} to={'/news/' + item.id} state={item.id}>
