@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import { StoreData } from '../DataStore/DataStore';
 import { Link, NavLink } from 'react-router-dom';
+import SimpleImageSlider from 'react-simple-image-slider';
+
 
 function Home() {
     const [datas] = useContext(StoreData);
@@ -10,6 +12,11 @@ function Home() {
     const randomone = Math.floor(Math.random() * datas.length);
     console.log(typeof (randomone))
     var count = 1;
+    const sliderImages = [
+        { url: "https://www.candorblog.com/wp-content/uploads/2017/05/travel-022-768x432.jpg" },
+        { url: "https://blog-content.ixigo.com/wp-content/uploads/2016/09/shutterstock_386861746-770x430.jpg" },
+        { url: "https://edinburgers.co.uk/wp-content/uploads/2023/01/travelling.jpg" }
+    ]
     // add nav bar when pressed back button from browser itself
     // var navitems = document.getElementsByClassName("navflex")[0];
     // navitems.classList.remove("disnone");
@@ -24,6 +31,14 @@ function Home() {
                     <img src="https://blog-content.ixigo.com/wp-content/uploads/2016/09/shutterstock_386861746-770x430.jpg" alt="img not found" className='img2'></img>
                     <img src="https://edinburgers.co.uk/wp-content/uploads/2023/01/travelling.jpg" alt="img not found" className='img3'></img>
                 </div>
+            </div>
+            <div className='sliderdiv'>
+                <SimpleImageSlider
+                    width={600}
+                    height={350}
+                    images={sliderImages}
+                    showNavs={true}
+                />
             </div>
             <div className='outerdiv_home'>
                 <h2 className='h2topname_home'>The Latest</h2>
