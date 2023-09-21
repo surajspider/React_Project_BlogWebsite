@@ -11,18 +11,37 @@ import DataStore from '../DataStore/DataStore';
 import { Routes, Route, NavLink } from 'react-router-dom';
 
 function Main() {
+    const handleClick = () => {
+        var x = document.getElementsByClassName("navbar")[0];
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        }
+        else {
+            x.style.display = "block";
+        }
+    }
     return (
         <>
-            <h1 className='heading' style={{ padding: 0, textAlign: "center" }}><span id='rotate'>The</span> <span className='siren'>Siren</span></h1>
-            <span className='dummybut' style={{ display: "none" }}>Get Started</span>
-
-            <div className="navflex">
-                <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/"><h3>Home</h3></NavLink>
-                <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Bollywood"><h3>Bollywood</h3></NavLink>
-                <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Technology"><h3>Technology</h3></NavLink>
-                <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Hollywood"><h3>Hollywood</h3></NavLink>
-                <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Fitness"><h3>Fitness</h3></NavLink>
-                <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Food"><h3>Food</h3></NavLink>
+            <div className='headnav'>
+                <div className='topicnav'>
+                    <h1 className='heading' style={{ padding: 0, margin: "0px 0px 10px 0px" }}><span id='rotate'>The</span> <span className='siren'>Siren</span></h1>
+                </div>
+                <div className='butnav'>
+                    <span className='dummybut' style={{ display: "none" }}>Get Started</span>
+                    <button className='button' onClick={handleClick}>
+                        <img src='https://cdn-icons-png.flaticon.com/512/4663/4663114.png' alt="not found" style={{ width: "100%", height: "7vh" }} />
+                    </button>
+                </div>
+            </div>
+            <div className='navbar'>
+                <div className="navflex">
+                    <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/"><h3>Home</h3></NavLink>
+                    <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Bollywood"><h3>Bollywood</h3></NavLink>
+                    <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Technology"><h3>Technology</h3></NavLink>
+                    <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Hollywood"><h3>Hollywood</h3></NavLink>
+                    <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Fitness"><h3>Fitness</h3></NavLink>
+                    <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Food"><h3>Food</h3></NavLink>
+                </div>
             </div>
             <hr className='navhr'></hr>
             <DataStore>
