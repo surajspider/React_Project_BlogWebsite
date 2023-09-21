@@ -15,7 +15,12 @@ function News() {
     navitems.classList.add("disnone");
     //css to heading 
     var head = document.getElementsByClassName("heading")[0];
+    var head2nav = document.getElementsByClassName("headnav")[0];
     head.classList.add("headcss");
+    head2nav.classList.add("head2nav");
+    //hide menu icon
+    var menu = document.getElementsByClassName("button")[0];
+    menu.style.display = "none";
     //dummy but display
     var dum = document.getElementsByClassName("dummybut")[0];
     dum.style.display = "block";
@@ -35,8 +40,9 @@ function News() {
     const backbut = () => {
         navitems.classList.remove("disnone");
         head.classList.remove("headcss");
-
+        head2nav.classList.remove("head2nav");
         dum.style.display = "none";
+        menu.style.display = "block";
         navi(`/${filteredCat}`);
     }
     return (
@@ -98,7 +104,7 @@ function News() {
                                     <h4 className='h4tag'><span className='span2'>Share this article</span></h4>
                                 </div>
                             </div>
-                        </div>
+                        </div><br />
                         <div className='suggestions'>
                             <h3 style={{ color: "grey", marginLeft: "4.5%" }}>More from The Siren...</h3>
                             <hr></hr>

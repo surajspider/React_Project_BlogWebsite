@@ -23,7 +23,7 @@ function Main() {
     return (
         <>
             <div className='headnav'>
-                <div className='topicnav'>
+                <div className='topicnav topic2nav'>
                     <h1 className='heading' style={{ padding: 0, margin: "0px 0px 10px 0px" }}><span id='rotate'>The</span> <span className='siren'>Siren</span></h1>
                 </div>
                 <div className='butnav'>

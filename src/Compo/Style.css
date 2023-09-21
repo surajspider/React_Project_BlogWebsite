@@ -1,581 +1,584 @@
-.navflex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: bisque;
+@media only screen and (min-width:951px) {
+    .navflex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: bisque;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .navlink {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sliderdiv {
+        border: 2px solid black;
+        width: 80%;
+        margin: auto;
+        height: 50vh;
+        display: none;
+    }
+
+    .homeimgdiv {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+
+    .seconddiv {
+        /* border: 2px solid black; */
+        width: 32%;
+        height: 60vh;
+        margin: 5px;
+    }
+
+    .img-first {
+        /* border: 2px solid black; */
+        width: 64%;
+        height: 60vh;
+        margin: 5px;
+    }
+
+    .img1 {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .img2 {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 49%;
+        border-radius: 20px;
+    }
+
+    .img3 {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
+
+
+
+    .size {
+        border: 2px solid black;
+        width: 50%;
+        margin: auto;
+    }
+
+    #rotate {
+        display: inline-block;
+        font-size: 0.7em;
+        transform: rotate(270deg);
+    }
+
+    .siren {
+        display: inline-block;
+        position: relative;
+        top: 5px;
+        font-size: larger;
+        padding: 0;
+        margin: 0;
+    }
+
+    .linkcss {
+        text-decoration: none;
+    }
+
+    .outerdiv_home {
+        width: 80%;
+        /* border: 2px solid black; */
+        margin: auto;
+    }
+
+    .h2topname_home {
+        text-align: left;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+
+    .hrredline_home {
+        background-color: red;
+        height: 2px;
+        width: 5%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .homelatestParent {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .home_itemdiv {
+        border: 1px solid grey;
+        width: 23%;
+        height: 52vh;
+        margin-bottom: 2%;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .home_itemdiv:hover {
+        box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    }
+
+    .imgdiv_home {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .contentdiv_home {
+        /* border: 2px solid green; */
+        height: 27vh;
+        text-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .contentdiv_home2 {
+        /* border: 2px solid green; */
+        height: 37vh;
+        text-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .contenttopicdivsize_home {
+        height: 10vh;
+    }
+
+    .contentdivsize_home {
+        /* border: 2px solid violet; */
+        height: 12vh;
+    }
+
+    .divparent_home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        /* border: 2px solid black; */
+        margin: auto;
+    }
+
+    .bor {
+        border: 5px double greenyellow;
+        height: 40vh;
+        padding: 10px;
+        background-color: aliceblue;
+    }
+
+    /* Bollywood Page */
+
+    .divparent {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 85%;
+        /* border: 2px solid black; */
+        margin: auto;
+    }
+
+    .leftcat {
+        /* border: 2px solid red; */
+        width: 55%;
+    }
+
+    .h2topname {
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+
+    .hrredline {
+        width: 9%;
+        background-color: red;
+        height: 2px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .itemdiv {
+        /* border: 2px solid black; */
+        margin: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .itemdiv:hover {
+        box-shadow: 0 0 19px rgba(33, 33, 33, .2);
+    }
+
+    .imagediv {
+        /* border: 2px solid blue; */
+        width: 40%;
+        height: 200px;
+    }
+
+    .imgfil {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .contentdiv {
+        /* border: 2px solid orange; */
+        width: 60%;
+        height: auto;
+        margin: 0% 0% 0% 2%;
+
+    }
+
+    .linegrey {
+        color: grey;
+        background-color: rgb(198, 195, 195);
+    }
+
+    .rightcat {
+        /* border: 2px solid red; */
+        width: 30%;
+    }
+
+    .spldiv {
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .spldiv:hover {
+        box-shadow: 0 0 19px rgba(33, 33, 33, .2);
+    }
+
+    .imagedivspl {
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid black; */
+    }
+
+    .contentdivspl {
+        width: 80%;
+        /* border: 2px solid red; */
+        display: inline-block;
+    }
+
+    .toppostsnum {
+        width: 15%;
+        /* border: 2px solid orange; */
+        display: inline-block;
+        height: 70px;
+        text-align: center;
+    }
+
+    .itemdiv2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0px 10px 0px;
+        /* border: 1px solid black; */
+    }
+
+    .itemdiv2:hover {
+        box-shadow: 0 0 19px rgba(33, 33, 33, .2);
+    }
+
+    .imgdiv2 {
+        width: 30%;
+        height: 100px;
+        /* border: 2px solid green; */
+    }
+
+    .contentdiv2 {
+        width: 50%;
+        /* border: 2px solid blue; */
+    }
+
+    .advertisement {
+        width: 100%;
+        text-align: center;
+        border: 2px solid black;
+        height: 110vh;
+        background-color: whitesmoke;
+    }
+
+    /* Dynamic routing page */
+    .imagediv3 {
+        width: 100%;
+        height: 45vh;
+        /* border: 2px solid red; */
+    }
+
+
+    .itemdiv3 {
+        width: 40%;
+        /* border: 2px solid black; */
+        margin: auto;
+    }
+
+    .author {
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .itemdiv3_logo {
+        width: 13%;
+        height: 10vh;
+        /* border: 2px solid violet; */
+    }
+
+    .createrinfo {
+        width: 60%;
+        /* border: 2px solid black; */
+        margin: 0px 0px 0px 5px;
+    }
+
+    .div3_logos {
+        width: 25%;
+        /* border: 2px solid green; */
+    }
+
+    .img_logo {
+        width: 20%;
+        /* border: 2px solid red; */
+        margin-top: 12%;
+        margin-right: 2%;
+        border-radius: 50%;
+    }
+
+    .ptag {
+        text-align: justify;
+    }
+
+    .like_share {
+        /* border: 2px solid black; */
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 15%;
+    }
+
+    .likenshare_logo {
+        display: inline-block;
+        border-radius: 50%;
+        width: 25%;
+        /* border: 2px solid red; */
+    }
+
+    .imgfil2 {
+        width: 70%;
+        left: 10px;
+        height: 80%;
+    }
+
+    .h4tag {
+        display: inline-block;
+        width: 60%;
+        margin-left: 10px;
+        /* border: 2px solid black; */
+    }
+
+    .span2 {
+        /* line-height: 80%; */
+        margin-bottom: 5%;
+        /* border: 2px solid blue; */
+        position: absolute;
+        top: 70%;
+    }
+
+    .suggestions {
+        /* border: 2px solid black; */
+        background-color: blanchedalmond;
+        padding-top: 0.5%;
+        padding-bottom: 2%;
+    }
+
+    .related_parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .related_itemdiv {
+        /* border: 2px solid black; */
+        width: 23%;
+        height: 45vh;
+        padding: 10px;
+    }
+
+    .related_imgdiv {
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: 25vh;
+    }
+
+    .related_contentdiv {
+        height: 9vh;
+    }
+
+    .related_author {
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+
+    .relateditem_logo {
+        width: 12%;
+        height: 6vh;
+        /* border: 2px solid violet; */
+    }
+
+    .backbutdiv {
+        /* border: 2px solid red; */
+        width: 10%;
+        position: absolute;
+        top: 17%;
+        left: 10%;
+    }
+
+    .backbutton {
+        /* border: 2px solid black; */
+        width: 100%;
+        padding: 10px;
+        font-size: large;
+        background-color: black;
+        color: azure;
+        cursor: pointer;
+    }
+
+    .related_createrinfo {
+        width: 70%;
+        height: 6vh;
+        /* border: 2px solid orange; */
+        margin-left: 5px;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: black;
+        color: beige;
+        /* height: 35vh; */
+        margin: 0;
+    }
+
+    .footerflex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .foot {
+        width: 30%;
+        /* border: 2px solid white; */
+        margin: 0.5%;
+        text-align: center;
+        color: beige;
+    }
+
+    .foot-one {
+        width: 15%;
+        /* border: 2px solid red; */
+    }
+
+    .foot-one_sub {
+        margin-top: 0.6%;
+        width: 20%;
+        text-align: center;
+        /* border: 2px solid white; */
+    }
+
+    .foot-two {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 2px solid white; */
+    }
+
+    .quicktitle {
+        width: 95%;
+        margin: auto;
+        /* border: 2px solid white; */
+        padding: 10px;
+    }
+
+    .links_foot {
+        /* border: 2px solid white; */
+        width: 40%;
+        margin: auto;
+    }
+
+    .links2_foot {
+        /* border: 2px solid white; */
+        width: 40%;
+        margin: auto;
+    }
+
+    .foot-three {
+        /* border: 2px solid red; */
+        width: fit-content;
+    }
+
+    .marginnonehr {
+        margin: 50px 0px 0px 0px;
+        height: 10vh;
+        text-align: center;
+        background-color: grey;
+        border: 1px solid grey;
+    }
+
+    .iconfooter {
+        margin-right: 2%;
+    }
+
+    .hoo {
+        margin: 10px;
+    }
+
+    /* display none */
+    .disnone {
+        display: none;
+    }
+
+    /* display block */
+    .disblock {
+        display: inline-block;
+    }
+
+    /* head css in news page*/
+    .head2nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* border: 2px solid black; */
+        width: 80%;
+        margin: auto;
+    }
+
+    .dummybut {
+        border: 2px solid green;
+        padding: 10px;
+        margin: 10% 0% 0% 0%;
+    }
 }
 
-.button {
-    display: none;
-}
-
-.heading {
-    text-align: center;
-}
-
-.navlink {
-    text-decoration: none;
-    color: black;
-}
-
-.sliderdiv {
-    border: 2px solid black;
-    width: 80%;
-    margin: auto;
-    height: 50vh;
-    display: none;
-}
-
-.homeimgdiv {
-    /* border: 2px solid black; */
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: auto;
-}
-
-.seconddiv {
-    /* border: 2px solid black; */
-    width: 32%;
-    height: 60vh;
-    margin: 5px;
-}
-
-.img-first {
-    /* border: 2px solid black; */
-    width: 64%;
-    height: 60vh;
-    margin: 5px;
-}
-
-.img1 {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-}
-
-.img2 {
-    /* border: 2px solid black; */
-    width: 100%;
-    height: 49%;
-    border-radius: 20px;
-}
-
-.img3 {
-    /* border: 2px solid black; */
-    width: 100%;
-    height: 50%;
-    border-radius: 20px;
-}
-
-
-
-.size {
-    border: 2px solid black;
-    width: 50%;
-    margin: auto;
-}
-
-#rotate {
-    display: inline-block;
-    font-size: 0.7em;
-    transform: rotate(270deg);
-}
-
-.siren {
-    display: inline-block;
-    position: relative;
-    top: 5px;
-    font-size: larger;
-    padding: 0;
-    margin: 0;
-}
-
-.linkcss {
-    text-decoration: none;
-}
-
-.outerdiv_home {
-    width: 80%;
-    /* border: 2px solid black; */
-    margin: auto;
-}
-
-.h2topname_home {
-    text-align: left;
-    margin-left: 0px;
-    margin-bottom: 5px;
-    font-weight: 600;
-}
-
-.hrredline_home {
-    background-color: red;
-    height: 2px;
-    width: 5%;
-    margin-left: 0px;
-    margin-bottom: 20px;
-}
-
-.homelatestParent {
-    /* border: 2px solid black; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.home_itemdiv {
-    border: 1px solid grey;
-    width: 23%;
-    height: 52vh;
-    margin-bottom: 2%;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.home_itemdiv:hover {
-    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
-}
-
-.imgdiv_home {
-    width: 100%;
-    height: 25vh;
-}
-
-.contentdiv_home {
-    /* border: 2px solid green; */
-    height: 27vh;
-    text-wrap: wrap;
-    overflow: hidden;
-}
-
-.contentdiv_home2 {
-    /* border: 2px solid green; */
-    height: 37vh;
-    text-wrap: wrap;
-    overflow: hidden;
-}
-
-.contenttopicdivsize_home {
-    height: 10vh;
-}
-
-.contentdivsize_home {
-    /* border: 2px solid violet; */
-    height: 12vh;
-}
-
-.divparent_home {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    /* border: 2px solid black; */
-    margin: auto;
-}
-
-.bor {
-    border: 5px double greenyellow;
-    height: 40vh;
-    padding: 10px;
-    background-color: aliceblue;
-}
-
-/* Bollywood Page */
-
-.divparent {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 85%;
-    /* border: 2px solid black; */
-    margin: auto;
-}
-
-.leftcat {
-    /* border: 2px solid red; */
-    width: 55%;
-}
-
-.h2topname {
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    font-weight: 600;
-}
-
-.hrredline {
-    width: 9%;
-    background-color: red;
-    height: 2px;
-    text-align: left;
-    margin-left: 10px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.itemdiv {
-    /* border: 2px solid black; */
-    margin: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.itemdiv:hover {
-    box-shadow: 0 0 19px rgba(33, 33, 33, .2);
-}
-
-.imagediv {
-    /* border: 2px solid blue; */
-    width: 40%;
-    height: 200px;
-}
-
-.imgfil {
-    width: 100%;
-    height: 100%;
-}
-
-
-
-.contentdiv {
-    /* border: 2px solid orange; */
-    width: 60%;
-    height: auto;
-    margin: 0% 0% 0% 2%;
-
-}
-
-.linegrey {
-    color: grey;
-    background-color: rgb(198, 195, 195);
-}
-
-.rightcat {
-    /* border: 2px solid red; */
-    width: 30%;
-}
-
-.spldiv {
-    /* border: 2px solid blue; */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.spldiv:hover {
-    box-shadow: 0 0 19px rgba(33, 33, 33, .2);
-}
-
-.imagedivspl {
-    width: 100%;
-    height: 200px;
-    /* border: 2px solid black; */
-}
-
-.contentdivspl {
-    width: 80%;
-    /* border: 2px solid red; */
-    display: inline-block;
-}
-
-.toppostsnum {
-    width: 15%;
-    /* border: 2px solid orange; */
-    display: inline-block;
-    height: 70px;
-    text-align: center;
-}
-
-.itemdiv2 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 0px 10px 0px;
-    /* border: 1px solid black; */
-}
-
-.itemdiv2:hover {
-    box-shadow: 0 0 19px rgba(33, 33, 33, .2);
-}
-
-.imgdiv2 {
-    width: 30%;
-    height: 100px;
-    /* border: 2px solid green; */
-}
-
-.contentdiv2 {
-    width: 50%;
-    /* border: 2px solid blue; */
-}
-
-.advertisement {
-    width: 100%;
-    text-align: center;
-    border: 2px solid black;
-    height: 110vh;
-    background-color: whitesmoke;
-}
-
-.imagediv3 {
-    width: 100%;
-    height: 45vh;
-    /* border: 2px solid red; */
-}
-
-
-.itemdiv3 {
-    width: 40%;
-    /* border: 2px solid black; */
-    margin: auto;
-}
-
-.author {
-    /* border: 2px solid blue; */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.itemdiv3_logo {
-    width: 13%;
-    height: 10vh;
-    /* border: 2px solid violet; */
-}
-
-.createrinfo {
-    width: 60%;
-    /* border: 2px solid black; */
-    margin: 0px 0px 0px 5px;
-}
-
-.div3_logos {
-    width: 25%;
-    /* border: 2px solid green; */
-}
-
-.img_logo {
-    width: 20%;
-    /* border: 2px solid red; */
-    margin-top: 12%;
-    margin-right: 2%;
-    border-radius: 50%;
-}
-
-.ptag {
-    text-align: justify;
-}
-
-.like_share {
-    /* border: 2px solid black; */
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    width: 15%;
-}
-
-.likenshare_logo {
-    display: inline-block;
-    border-radius: 50%;
-    width: 25%;
-    /* border: 2px solid red; */
-}
-
-.imgfil2 {
-    width: 70%;
-    left: 10px;
-    height: 80%;
-}
-
-.h4tag {
-    display: inline-block;
-    width: 60%;
-    margin-left: 10px;
-    /* border: 2px solid black; */
-}
-
-.span2 {
-    /* line-height: 80%; */
-    margin-bottom: 5%;
-    /* border: 2px solid blue; */
-    position: absolute;
-    top: 70%;
-}
-
-.suggestions {
-    /* border: 2px solid black; */
-    background-color: blanchedalmond;
-    padding-top: 0.5%;
-    padding-bottom: 2%;
-}
-
-.related_parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.related_itemdiv {
-    /* border: 2px solid black; */
-    width: 23%;
-    height: 45vh;
-    padding: 10px;
-}
-
-.related_imgdiv {
-    /* border: 2px solid blue; */
-    width: 100%;
-    height: 25vh;
-}
-
-.related_contentdiv {
-    height: 9vh;
-}
-
-.related_author {
-    /* border: 2px solid blue; */
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5px;
-}
-
-.relateditem_logo {
-    width: 12%;
-    height: 6vh;
-    /* border: 2px solid violet; */
-}
-
-.backbutdiv {
-    /* border: 2px solid red; */
-    width: 10%;
-    position: absolute;
-    top: 17%;
-    left: 10%;
-}
-
-.backbutton {
-    /* border: 2px solid black; */
-    width: 100%;
-    padding: 10px;
-    font-size: large;
-    background-color: black;
-    color: azure;
-    cursor: pointer;
-}
-
-.related_createrinfo {
-    width: 70%;
-    height: 6vh;
-    /* border: 2px solid orange; */
-    margin-left: 5px;
-}
-
-.footer {
-    width: 100%;
-    background-color: black;
-    color: beige;
-    /* height: 35vh; */
-    margin: 0;
-}
-
-.footerflex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-}
-
-.foot {
-    width: 30%;
-    /* border: 2px solid white; */
-    margin: 0.5%;
-    text-align: center;
-    color: beige;
-}
-
-.foot-one {
-    width: 15%;
-    /* border: 2px solid red; */
-}
-
-.foot-one_sub {
-    margin-top: 0.6%;
-    width: 20%;
-    text-align: center;
-    /* border: 2px solid white; */
-}
-
-.foot-two {
-    display: flex;
-    flex-wrap: wrap;
-    /* border: 2px solid white; */
-}
-
-.quicktitle {
-    width: 95%;
-    margin: auto;
-    /* border: 2px solid white; */
-    padding: 10px;
-}
-
-.links_foot {
-    /* border: 2px solid white; */
-    width: 40%;
-    margin: auto;
-}
-
-.links2_foot {
-    /* border: 2px solid white; */
-    width: 40%;
-    margin: auto;
-}
-
-.foot-three {
-    /* border: 2px solid red; */
-    width: fit-content;
-}
-
-.marginnonehr {
-    margin: 50px 0px 0px 0px;
-    height: 10vh;
-    text-align: center;
-    background-color: grey;
-    border: 1px solid grey;
-}
-
-.iconfooter {
-    margin-right: 2%;
-}
-
-.hoo {
-    margin: 10px;
-}
-
-/* display none */
-.disnone {
-    display: none;
-}
-
-/* display block */
-.disblock {
-    display: inline-block;
-}
-
-/* head css in news page*/
-.headcss {
-    width: fit-content;
-    text-align: left;
-    margin-left: 10%;
-    display: inline-block;
-    /* border: 2px solid black; */
-}
-
-.dummybut {
-    border: 2px solid rgb(84, 228, 84);
-    color: green;
-    padding: 5px;
-    float: right;
-    margin: 2% 10% 0% 0%;
-}
 
 @media only screen and (min-width:700px) and (max-width:950px) {
     .navflex {
@@ -585,11 +588,9 @@
         background-color: bisque;
     }
 
-    .header {
-        text-align: center
+    .heading {
+        text-align: center;
     }
-
-    ;
 
     .navlink {
         text-decoration: none;
@@ -639,6 +640,7 @@
         display: none;
     }
 
+
     .size {
         border: 2px solid black;
         width: 50%;
@@ -672,6 +674,17 @@
 
     .hrredline_home {
         width: 8%;
+        background-color: red;
+        height: 2px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .homelatestParent {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .home_itemdiv {
@@ -1146,20 +1159,23 @@
     }
 
     /* head css in news page*/
-    .headcss {
-        width: fit-content;
-        text-align: left;
-        margin-left: 10%;
-        display: inline-block;
+    .head2nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         /* border: 2px solid black; */
+        width: 80%;
+        margin: auto;
     }
 
     .dummybut {
-        border: 2px solid rgb(84, 228, 84);
-        color: green;
-        padding: 5px;
-        float: right;
-        margin: 4% 10% 0% 0%;
+        border: 2px solid green;
+        padding: 10px;
+        margin: 10% 0% 0% 0%;
+    }
+
+    .button {
+        display: none;
     }
 }
 
@@ -1301,8 +1317,24 @@
         margin: auto;
     }
 
+    .h2topname_home {
+        margin-bottom: 5px;
+    }
+
     .hrredline_home {
         width: 15%;
+        background-color: red;
+        height: 2px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .homelatestParent {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .home_itemdiv {
@@ -1476,7 +1508,7 @@
 
     .itemdiv2_child {
         /* border: 2px solid red; */
-        width: 45%;
+        width: 100%;
     }
 
     .itemdiv2:hover {
@@ -1502,14 +1534,15 @@
     /* Latest Stories */
     .bor {
         border: 5px double greenyellow;
-        height: 25vh;
+        height: 35vh;
         padding: 10px;
         background-color: aliceblue;
+        margin-bottom: 2%;
     }
 
     .contentdiv_home2 {
         /* border: 2px solid green; */
-        height: 22vh;
+        height: 32vh;
         text-wrap: wrap;
         overflow: hidden;
     }
@@ -1536,15 +1569,19 @@
     }
 
     .itemdiv3_logo {
-        width: 13%;
-        height: 7vh;
+        width: 20%;
+        height: 10vh;
         /* border: 2px solid violet; */
     }
 
     .createrinfo {
-        width: 60%;
+        width: 50%;
         /* border: 2px solid black; */
         margin: 0px 0px 0px 5px;
+    }
+
+    .createrinfo h3 {
+        margin-top: 0;
     }
 
     .div3_logos {
@@ -1612,7 +1649,7 @@
 
     .span3 {
         position: absolute;
-        top: 20%;
+        top: 40%;
     }
 
     .suggestions {
@@ -1629,26 +1666,27 @@
     }
 
     .related_itemdiv {
-        /* border: 2px solid black; */
-        width: 35%;
-        height: 30vh;
+        border: 2px solid black;
+        width: 95%;
+        height: 55vh;
         padding: 10px;
+        margin-bottom: 2%;
     }
 
     .related_imgdiv {
         /* border: 2px solid blue; */
         width: 100%;
-        height: 10vh;
+        height: 25vh;
     }
 
     .related_contentdiv {
-        height: 7vh;
-        /* border: 2px solid yellow; */
+        height: 10vh;
+        border: 2px solid yellow;
         overflow: hidden;
     }
 
     .related_author {
-        /* border: 2px solid blue; */
+        border: 2px solid blue;
         display: flex;
         flex-wrap: wrap;
         margin-top: 5px;
@@ -1656,13 +1694,13 @@
 
     .relateditem_logo {
         width: 25%;
-        height: 6vh;
-        /* border: 2px solid violet; */
+        height: 10vh;
+        border: 2px solid violet;
     }
 
     .backbutdiv {
         /* border: 2px solid red; */
-        width: 20%;
+        width: 40%;
         position: static;
         margin-left: 10%;
 
@@ -1681,8 +1719,9 @@
     .related_createrinfo {
         width: 70%;
         height: 6vh;
-        /* border: 2px solid orange; */
+        border: 2px solid orange;
         margin-left: 5px;
+        margin-top: 2%;
     }
 
     .footer {
@@ -1792,4 +1831,7 @@
         float: right;
         margin: 4% 10% 0% 0%;
     }
+
+
+
 }
