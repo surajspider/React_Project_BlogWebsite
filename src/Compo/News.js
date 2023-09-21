@@ -45,6 +45,9 @@ function News() {
             {datas.filter((item) => item.id === parseInt(ids)).map((item, index) => {
                 return (
                     <div key={index}>
+                        <div className='backbutdiv'>
+                            <button className='backbutton' onClick={backbut}>← Go Back</button>
+                        </div>
                         <div className='itemdiv3'>
                             <h2>{item.topic}</h2>
                             <div className='author'>
@@ -81,18 +84,19 @@ function News() {
                                 </div>
                             </div>
                             <hr></hr>
-                            <div className='backbutdiv'>
-                                <button className='backbutton' onClick={backbut}>← Go Back</button>
-                            </div>
                             <div className='like_share'>
-                                <div className="likenshare_logo">
-                                    <img className='imgfil2' src="https://www.freeiconspng.com/thumbs/youtube-like-png/youtube-like-png-19.png" alt="not found" />
+                                <div className='like'>
+                                    <div className="likenshare_logo">
+                                        <img className='imgfil2' src="https://www.freeiconspng.com/thumbs/youtube-like-png/youtube-like-png-19.png" alt="not found" />
+                                    </div>
+                                    <h4 className='h4tag'><span className='span3'>Likes: 12.4k</span></h4>
                                 </div>
-                                <h4 className='h4tag'><span>Likes: 12.4k</span></h4>
-                                <div className='likenshare_logo'>
-                                    <img className="imgfil2" src="https://cdn-icons-png.flaticon.com/512/189/189676.png" alt="not found" />
+                                <div className='share'>
+                                    <div className='likenshare_logo'>
+                                        <img className="imgfil2" src="https://cdn-icons-png.flaticon.com/512/189/189676.png" alt="not found" />
+                                    </div>
+                                    <h4 className='h4tag'><span className='span2'>Share this article</span></h4>
                                 </div>
-                                <h4 className='h4tag'><span className='span2'>Share this article</span></h4>
                             </div>
                         </div>
                         <div className='suggestions'>

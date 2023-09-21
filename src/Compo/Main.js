@@ -24,7 +24,7 @@ function Main() {
                 <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Fitness"><h3>Fitness</h3></NavLink>
                 <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Food"><h3>Food</h3></NavLink>
             </div>
-            <hr></hr>
+            <hr className='navhr'></hr>
             <DataStore>
                 <Routes>
                     <Route path="/" element={<Home />} ></Route>
