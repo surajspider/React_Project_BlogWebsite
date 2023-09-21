@@ -63,7 +63,7 @@ function Home() {
                                         <div className='contentdivsize_home'>
                                             <p style={{ margin: "5px 0px 0px 0px", textAlign: "justify", fontSize: "1em" }}>{item.info.split(" ", 20).join(" ")}....</p>
                                         </div>
-                                        <p style={{ color: "grey", margin: 0 }}>{item.category}, {item.date}</p>
+                                        <p className='contentsizedate_home' style={{ color: "grey", margin: 0 }}>{item.category}, {item.date}</p>
                                     </div>
                                 </Link>
                             </div>
