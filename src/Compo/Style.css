@@ -6,10 +6,6 @@
         background-color: bisque;
     }
 
-    .button {
-        display: none;
-    }
-
     .heading {
         text-align: center;
     }
@@ -576,6 +572,10 @@
         border: 2px solid green;
         padding: 10px;
         margin: 10% 0% 0% 0%;
+    }
+
+    .menubutton {
+        display: none;
     }
 }
 
@@ -1174,7 +1174,7 @@
         margin: 10% 0% 0% 0%;
     }
 
-    .button {
+    .menubutton {
         display: none;
     }
 }
@@ -1231,7 +1231,7 @@
         margin-top: 5px;
     }
 
-    .button {
+    .buttons {
         /* border: 2px solid black; */
         padding: 0;
         display: inline-block;
@@ -1240,6 +1240,10 @@
         background: none;
         border: none;
         cursor: pointer;
+    }
+
+    .buttons2 {
+        display: none;
     }
 
 
@@ -1338,12 +1342,13 @@
     }
 
     .home_itemdiv {
-        /* border: 1px solid grey; */
+        border: 1px solid grey;
         width: 90%;
-        height: 55vh;
+        height: 50vh;
         margin: auto;
         padding: 10px;
         overflow: hidden;
+        margin-bottom: 2%;
     }
 
     .home_itemdiv:hover {
@@ -1357,7 +1362,7 @@
 
     .contentdiv_home {
         /* border: 2px solid green; */
-        height: 30vh;
+        height: 25vh;
         text-wrap: wrap;
         overflow: hidden;
     }
@@ -1365,13 +1370,13 @@
 
 
     .contenttopicdivsize_home {
-        height: 11vh;
+        height: 7vh;
         /* border: 2px solid red; */
     }
 
     .contentdivsize_home {
         /* border: 2px solid violet; */
-        height: 13vh;
+        height: 11vh;
     }
 
     /* Latest articles part */
@@ -1681,12 +1686,12 @@
 
     .related_contentdiv {
         height: 10vh;
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         overflow: hidden;
     }
 
     .related_author {
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         display: flex;
         flex-wrap: wrap;
         margin-top: 5px;
@@ -1695,7 +1700,7 @@
     .relateditem_logo {
         width: 25%;
         height: 10vh;
-        border: 2px solid violet;
+        /* border: 2px solid violet; */
     }
 
     .backbutdiv {
@@ -1719,7 +1724,7 @@
     .related_createrinfo {
         width: 70%;
         height: 6vh;
-        border: 2px solid orange;
+        /* border: 2px solid orange; */
         margin-left: 5px;
         margin-top: 2%;
     }
@@ -1748,13 +1753,13 @@
     }
 
     .foot-one {
-        width: 15%;
+        width: 95%;
         /* border: 2px solid red; */
     }
 
     .foot-one_sub {
         margin-top: 0.6%;
-        width: 20%;
+        width: 95%;
         text-align: center;
         /* border: 2px solid white; */
     }
@@ -1763,6 +1768,7 @@
         display: flex;
         flex-wrap: wrap;
         /* border: 2px solid white; */
+        width: 95%;
     }
 
     .quicktitle {
@@ -1786,7 +1792,7 @@
 
     .foot-three {
         /* border: 2px solid red; */
-        width: fit-content;
+        width: 95%;
     }
 
     .marginnonehr {
@@ -1795,6 +1801,7 @@
         text-align: center;
         background-color: grey;
         border: 1px solid grey;
+        display: none;
     }
 
     .iconfooter {

@@ -18,13 +18,12 @@ function News() {
     var head2nav = document.getElementsByClassName("headnav")[0];
     head.classList.add("headcss");
     head2nav.classList.add("head2nav");
-    //hide menu icon
-    var menu = document.getElementsByClassName("button")[0];
-    menu.style.display = "none";
     //dummy but display
     var dum = document.getElementsByClassName("dummybut")[0];
     dum.style.display = "block";
-
+    //menu button display
+    var buttons = document.getElementsByClassName("buttons")[0];
+    buttons.classList.add("buttons2");
     const filteredDatas = datas.filter((item) => item.id === pid);
     console.log(filteredDatas);
     console.log(filteredDatas[0].category);
@@ -42,7 +41,7 @@ function News() {
         head.classList.remove("headcss");
         head2nav.classList.remove("head2nav");
         dum.style.display = "none";
-        menu.style.display = "block";
+        buttons.classList.remove("buttons2");
         navi(`/${filteredCat}`);
     }
     return (

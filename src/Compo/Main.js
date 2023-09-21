@@ -24,11 +24,14 @@ function Main() {
         <>
             <div className='headnav'>
                 <div className='topicnav topic2nav'>
-                    <h1 className='heading' style={{ padding: 0, margin: "0px 0px 10px 0px" }}><span id='rotate'>The</span> <span className='siren'>Siren</span></h1>
+                    <NavLink style={{ textDecoration: "none", color: "black" }} to="/">
+
+                        <h1 className='heading' style={{ padding: 0, margin: "0px 0px 10px 0px" }}><span id='rotate'>The</span> <span className='siren'>Siren</span></h1>
+                    </NavLink>
                 </div>
                 <div className='butnav'>
                     <span className='dummybut' style={{ display: "none" }}>Get Started</span>
-                    <button className='button' onClick={handleClick}>
+                    <button className='menubutton buttons' onClick={handleClick}>
                         <img src='https://cdn-icons-png.flaticon.com/512/4663/4663114.png' alt="not found" style={{ width: "100%", height: "7vh" }} />
                     </button>
                 </div>
