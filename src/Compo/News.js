@@ -36,6 +36,8 @@ function News() {
     console.log(datas);
     // console.log(data.state);
 
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+
     const backbut = () => {
         navitems.classList.remove("disnone");
         head.classList.remove("headcss");

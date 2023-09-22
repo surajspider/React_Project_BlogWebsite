@@ -7,6 +7,7 @@ function Fitness() {
     const [datas] = useContext(StoreData);
     console.log(datas);
     var count = 1;
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     // add nav bar when pressed back button from browser itself
     // var navitems = document.getElementsByClassName("navflex")[0];
     // navitems.classList.remove("disnone");

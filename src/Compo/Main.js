@@ -9,17 +9,24 @@ import News from './News';
 import DataStore from '../DataStore/DataStore';
 
 import { Routes, Route, NavLink } from 'react-router-dom';
+import Menu from './Menu';
 
 function Main() {
-    const handleClick = () => {
-        var x = document.getElementsByClassName("navbar")[0];
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        }
-        else {
-            x.style.display = "block";
-        }
-    }
+
+    // const handleClick = () => {
+    //     var x = document.getElementById("navbarid");
+    //     if (x.style.display === "block") {
+    //         console.log("hello")
+    //         // x.style.display = "none";
+    //         x.classList.add("navbar");
+    //     }
+    //     else {
+    //         x.style.display = "block";
+    //         x.classList.remove("navbar");
+    //     }
+    // }
+
+
     return (
         <>
             <div className='headnav'>
@@ -31,21 +38,21 @@ function Main() {
                 </div>
                 <div className='butnav'>
                     <span className='dummybut' style={{ display: "none" }}>Get Started</span>
-                    <button className='menubutton buttons' onClick={handleClick}>
-                        <img src='https://cdn-icons-png.flaticon.com/512/4663/4663114.png' alt="not found" style={{ width: "100%", height: "7vh" }} />
-                    </button>
                 </div>
             </div>
-            <div className='navbar'>
+            <div className='menubutton'>
+                <Menu />
+            </div>
+            <div className='navbar' id='navbarid'>
                 <div className="navflex">
-                    <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/"><h3>Home</h3></NavLink>
+                    <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/" ><h3>Home</h3></NavLink>
                     <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Bollywood"><h3>Bollywood</h3></NavLink>
                     <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Technology"><h3>Technology</h3></NavLink>
                     <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Hollywood"><h3>Hollywood</h3></NavLink>
                     <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Fitness"><h3>Fitness</h3></NavLink>
                     <NavLink className='navlink' style={({ isActive }) => ({ color: isActive ? "grey" : "" })} to="/Food"><h3>Food</h3></NavLink>
                 </div>
-            </div>
+            </div >
             <hr className='navhr'></hr>
             <DataStore>
                 <Routes>

@@ -7,6 +7,7 @@ function Hollywood() {
     const [datas] = useContext(StoreData);
     console.log(datas);
     var count = 1;
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     // add nav bar when pressed back button from browser itself
     // var navitems = document.getElementsByClassName("navflex")[0];
     // navitems.classList.remove("disnone");
@@ -22,7 +23,7 @@ function Hollywood() {
             <br />
             <div className='divparent'>
                 <div className='leftcat'>
-                    <h2 className='h2topname'>HollyWood</h2>
+                    <h2 className='h2topname'>Hollywood</h2>
                     <hr className='hrredline'></hr>
                     {datas.filter((item) => item.category === "hollywood" && item.id >= 31 && item.id <= 37).map((item, index) => {
                         return (
